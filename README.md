@@ -26,7 +26,7 @@ by Teuku Raja Irfan Radarma
   <tr>
     <td>2</td>
     <td>Pengolahan Data Elektronik</td>
-    <td><a href="https://github.com/irfanradarma/TABK-STAN/tree/63b5375d989028fd338023faf531ad1a56cf0442/slide/Week%2002/Dosko">Folder Materi</a></td>
+    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/63b5375d989028fd338023faf531ad1a56cf0442/slide/Week%2002/Dosko/kuliah-02.zip">Pengolahan Data Elektronik</a></td>
     <td>---</td>
     <td>---</td>
   </tr>
