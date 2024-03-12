@@ -2,7 +2,7 @@
 
 | No | Topik | Slide Dosko | Slide Irfan | Bahan Praktik |
 |----------|----------|----------|----------|----------|
-| 1    | Konsep Audit dan TABK    | ---    | ---    | ---    |
+| 1    | Konsep Audit dan TABK    | [1.a - Konsep Dasar](slide/Week 01/Dosko/TABK pertemuan 1.a - Konsep Dasar.pptx)    | ---    | ---    |
 | 2    | Pengolahan Data ELektronik    | ---    | ---    | ---    |
 | 3    | Pengendalian Aplikasi I    | ---    | ---    | ---    |
 | 4    | Pengendalian Aplikasi II    | ---    | ---    | ---    |
