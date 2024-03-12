@@ -9,7 +9,7 @@
 | 5    | Impor dan Ekspor Data    | ---    | ---    | ---    |
 | 6    | Simulasi Sejajar I   | ---    | ---    | ---    |
 | 7    | Simulasi Sejajar II    | ---    | ---    | ---    |
-| 8    | UTS    |
+| 8    | UTS (Ujian Tengah Semester) | | | |
 | 9    | Data, Tabel, dan Query I    | ---    | ---    | ---    |
 | 10   | Data, Tabel, dan Query I    | ---    | ---    | ---    |
 | 11   | Pengujian Analitik dan Sampling I    | ---    | ---    | ---    |
