@@ -3,6 +3,8 @@ by Teuku Raja Irfan Radarma
 
 ### RPS
 [Rencana Pembelajaran Semester](<https://github.com/irfanradarma/TABK-STAN/raw/main/Usulan%20RPS%20TABK%20%20format%20baru%20Semester%20genap%20%202023-2024-per%202024%20Feb%2020.doc>)
+
+### Bahan Perkuliahan
 <table border="1">
   <tr>
     <th>No</th>
@@ -24,14 +26,14 @@ by Teuku Raja Irfan Radarma
   <tr>
     <td>2</td>
     <td>Pengolahan Data Elektronik</td>
-    <td>---</td>
+    <td><a href="https://github.com/irfanradarma/TABK-STAN/tree/63b5375d989028fd338023faf531ad1a56cf0442/slide/Week%2002/Dosko">Folder Materi</a></td>
     <td>---</td>
     <td>---</td>
   </tr>
   <tr>
     <td>3</td>
     <td>Pengendalian Aplikasi I</td>
-    <td>---</td>
+    <td><a href="https://github.com/irfanradarma/TABK-STAN/tree/63b5375d989028fd338023faf531ad1a56cf0442/slide/Week%2003/Dosko">Folder Materi</a></td>
     <td>---</td>
     <td>---</td>
   </tr>
@@ -65,7 +67,7 @@ by Teuku Raja Irfan Radarma
   </tr>
   <tr>
     <td>8</td>
-    <td colspan="4">UTS (Ujian Tengah Semester)</td>
+    <td colspan="4" align="center">UTS (Ujian Tengah Semester)</td>
   </tr>
   <tr>
     <td>9</td>
