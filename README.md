@@ -5,7 +5,41 @@ by Teuku Raja Irfan Radarma
 ### Rencana Pembelajaran Semester
 [Unduh RPS](<https://github.com/irfanradarma/TABK-STAN/raw/main/Usulan%20RPS%20TABK%20%20format%20baru%20Semester%20genap%20%202023-2024-per%202024%20Feb%2020.doc>)
 
-### Bahan Perkuliahan
+<head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+td[colspan="5"] {
+  text-align: center;
+  background-color: #e0e0e0;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+
+<h3>Bahan Perkuliahan</h3>
+
 <table border="1">
   <tr>
     <th>No</th>
