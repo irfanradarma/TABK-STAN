@@ -20,7 +20,7 @@ by Teuku Raja Irfan Radarma
     <td rowspan="2">Konsep Audit dan TABK</td>
     <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2001/Dosko/TABK%20pertemuan%201.a%20-%20Konsep%20Dasar.pptx">1.a - Konsep Dasar</a></td>
     <td rowspan="2"><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2001/01.%20Konsep%20Audit%20dan%20TABK.pdf">01. Konsep Audit dan TABK</a></td>
-    <td rowspan="2"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeqxcyQODBuGs5QMf824blidpJsZ2a5y1L9KApWFzjAoTOMaQ/viewform">Survei Kemampuan Spreadsheet</a></td>
+    <td rowspan="2"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeqxcyQODBuGs5QMf824blidpJsZ2a5y1L9KApWFzjAoTOMaQ/viewform" target="_blank">Survei Kemampuan Spreadsheet</a></td>
   </tr>
   <tr>
     <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2001/Dosko/TABK%20pertemuan%201.b%20-%20Pengantar%20Pengendalian%20Intern.pptx">1.b - Pengantar Pengendalian Intern</a></td>
