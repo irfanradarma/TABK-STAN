@@ -35,7 +35,7 @@ by Teuku Raja Irfan Radarma
   <tr>
     <td>3</td>
     <td>Pengendalian Aplikasi I</td>
-    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/63b5375d989028fd338023faf531ad1a56cf0442/slide/Week%2003/Dosko/TABK%20pertemuan%203%20-%20Transfer%20dan%20Impor%20Data.pptx">Transfer dan Impor Data</a></td>
+    <td>---</td>
     <td>---</td>
     <td>---</td>
   </tr>
