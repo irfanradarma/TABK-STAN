@@ -18,17 +18,17 @@ by Teuku Raja Irfan Radarma
   <tr>
     <td rowspan="2">1</td>
     <td rowspan="2">Konsep Audit dan TABK</td>
-    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2001/Dosko/TABK%20pertemuan%201.a%20-%20Konsep%20Dasar.pptx">1.a - Konsep Dasar</a></td>
-    <td rowspan="2"><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2001/01.%20Konsep%20Audit%20dan%20TABK.pdf">01. Konsep Audit dan TABK</a></td>
+    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2001%20-%20Konsep%20TABK/Dosko/TABK%20pertemuan%201.a%20-%20Konsep%20Dasar.pptx">1.a - Konsep Dasar</a></td>
+    <td rowspan="2"><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2001%20-%20Konsep%20TABK/01.%20Konsep%20Audit%20dan%20TABK.pdf">01. Konsep Audit dan TABK</a></td>
     <td rowspan="2"><a href="https://forms.gle/uJiAX6XZKif5Gmeq5" target="_blank">Survei Kemampuan Spreadsheet</a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2001/Dosko/TABK%20pertemuan%201.b%20-%20Pengantar%20Pengendalian%20Intern.pptx">1.b - Pengantar Pengendalian Intern</a></td>
+    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2001%20-%20Konsep%20TABK/Dosko/TABK%20pertemuan%201.b%20-%20Pengantar%20Pengendalian%20Intern.pptx">1.b - Pengantar Pengendalian Intern</a></td>
   </tr>
   <tr>
     <td>2</td>
     <td>Pengolahan Data Elektronik</td>
-    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2002/Dosko/kuliah-02.zip">Pengolahan Data Elektronik</a></td>
+    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2002%20-%20Pengolahan%20Data/Dosko/kuliah-02.zip">Pengolahan Data Elektronik</a></td>
     <td>---</td>
     <td>---</td>
   </tr>
