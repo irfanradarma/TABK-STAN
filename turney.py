@@ -99,20 +99,36 @@ def show(source_1, source_2, source_3, source_kelas, kode_kelas):
             else:
                 st.empty()
 
+def refresh_data():
+    st.session_state.source_1 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=1819435083")
+    st.session_state.source_2 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=903057001")
+    st.session_state.source_3 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=857540612")
+    st.session_state.source_kelas = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=191090434")
+
 def main():
     st.header("Leaderboard Pengolahan Data")
-    st.write("Minggu-2 TABK by Teuku Raja Irfan Radarma")
-    # source_1 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=275808846") #dummy
-    source_1 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=1819435083")
-    source_2 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=903057001")
-    source_3 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=857540612")
-    source_kelas = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=191090434")
+    if "source_1" not in st.session_state:
+        # st.session_state.source_1 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=275808846") #dummy
+        st.session_state.source_1 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=1819435083")
+    if "source_2" not in st.session_state:
+        st.session_state.source_2 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=903057001")
+    if "source_3" not in st.session_state:
+        st.session_state.source_3 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=857540612")
+    if "source_kelas" not in st.session_state:
+        st.session_state.source_kelas = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=191090434")
 
+    main_col1, main_col2 = st.columns([0.8, 0.2])
+    with main_col1:
+        st.write("Minggu-2 TABK by Teuku Raja Irfan Radarma")
+    with main_col2:
+        if st.button("refresh"):
+            refresh_data()
+    
     tab_62, tab_63 = st.tabs(["6-02", "6-03"])
     with tab_62:
-        show(source_1, source_2, source_3, source_kelas, "6-2")
+        show(st.session_state.source_1, st.session_state.source_2, st.session_state.source_3, st.session_state.source_kelas, "6-2")
     with tab_63:
-        show(source_1, source_2, source_3, source_kelas, "6-3")
+        show(st.session_state.source_1, st.session_state.source_2, st.session_state.source_3, st.session_state.source_kelas, "6-3")
     
 
 if __name__ == "__main__":
