@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 
+st.set_page_config(layout="wide", page_title="Competition")
 st.markdown(
     """
     <style>
@@ -13,8 +14,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.set_page_config(layout="wide", page_title="Competition")
-
 
 def olah_NPM(df):
     df_temp = df[['Timestamp', 'NPM I', 'NPM II', 'NPM III', 'Score']]
