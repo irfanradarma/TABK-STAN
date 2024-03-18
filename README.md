@@ -34,14 +34,15 @@ by Teuku Raja Irfan Radarma
     <a href="https://www.youtube.com/watch?v=bhfRlU_bNmw" target="_blank">2. Tutorial SUM, SUMIF, SUMIFS</a><br>
     <a href="https://www.youtube.com/watch?v=OekP7P-Xw4I" target="_blank">3. Tutorial CONSOLIDATE</a><br>
     <a href="https://www.youtube.com/watch?v=JNZqRYkgZ4c" target="_blank">4. Tutorial Filtering Data</a><br>
-    <a href="https://www.youtube.com/watch?v=UV-SPoVkDaU" target="_blank">5. Tutorial Advanced Filters</a></td>
+    <a href="https://www.youtube.com/watch?v=UV-SPoVkDaU" target="_blank">5. Tutorial Advanced Filters</a><br>
+    <a href="https://www.youtube.com/watch?v=LKbRkIIVG60&pp=ygUQdHV0b3JpYWwgdmxvb2t1cA%3D%3D" target="_blank">6. Tutorial Vlookup</a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2002%20-%20Pengolahan%20Data/Data%20Praktik%20Minggu-2.xlsx" target="_blank">Data Praktikum Pengolahan Data</a><br><br>
+    <td>Bahan Praktikum:<br><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2002%20-%20Pengolahan%20Data/Data%20Praktik%20Minggu-2.xlsx" target="_blank">Data Praktikum Pengolahan Data</a><br><br>
     Link Kompetisi:<br>
-    - Penyisihan<br>
-    - Babak II<br>
-    - Babak III</td>
+    <a href="https://forms.gle/SwAaeJxDtym4NVyx6" target="_blank">- Penyisihan</a><br>
+    <a href="https://forms.gle/QAYDQX7QzLyQw2Gq5" target="_blank">- Babak II</a><br>
+    <a href="https://forms.gle/PcfgmzPVte9aSDzBA" target="_blank">- Babak III</a></td>
   </tr>
   <tr>
     <td>3</td>
