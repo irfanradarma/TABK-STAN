@@ -49,6 +49,19 @@ def recap(kelas, nilai, kode_kelas):
     df = df[['Nama', 'final_score']]
     return df
 
+def next_team(df):
+    NPM1 = []
+    NPM2 = []
+    for i in range(int(len(df)/2)):
+        o = (i+1)*(-1)
+        NPM1.append((df["Nama"].values)[i])
+        NPM2.append((df["Nama"].values)[o])
+    if len(df)%2 != 0:
+        NPM2.append(" ")
+        NPM2.append(df['Nama'][int(len(df)/2)+1])
+    df_next = pd.DataFrame({"I":NPM1, "II":NPM2})
+    return df_next
+
 def show(source_1, source_2, source_3, source_kelas, kode_kelas):
     col1, col2, col3 = st.columns(3)
     with col1:
@@ -57,8 +70,12 @@ def show(source_1, source_2, source_3, source_kelas, kode_kelas):
             if len(source_1) > 1:
                 df1 = olah_NPM(source_1)
                 nilai1 = recap(source_kelas, df1, kode_kelas)
+                st.write("Skor")
                 st.table(nilai1.style.format({"final_score": "{:.2f}"}))
-            else:
+                next1 = next_team(nilai1)
+                with st.expander("Next Team"):
+                    st.dataframe(next1)
+            else:   
                 st.empty()
     with col2:
         with st.container(border=True):
@@ -67,6 +84,9 @@ def show(source_1, source_2, source_3, source_kelas, kode_kelas):
                 df2 = olah_NPM(source_2)
                 nilai2 = recap(source_kelas, df2, kode_kelas)
                 st.table(nilai2.style.format({"final_score": "{:.2f}"}))
+                next2 = next_team(nilai2)
+                with st.expander("Next Team"):
+                    st.dataframe(next2)
             else:
                 st.empty()
     with col3:
