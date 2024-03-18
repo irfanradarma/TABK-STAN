@@ -3,12 +3,6 @@ import streamlit as st
 
 st.set_page_config(layout="wide", page_title="Competition")
 
-hide_github_icon = """
-
-.css-1jc7ptx, .e1ewe7hr3, .viewerBadge_container__1QSob, .styles_viewerBadge__1yB5_, .viewerBadge_link__1S137, .viewerBadge_text__1JaDK{ display: none; } #MainMenu{ visibility: hidden; } footer { visibility: hidden; } header { visibility: hidden; }
-"""
-st.markdown(hide_github_icon, unsafe_allow_html=True)
-
 def olah_NPM(df):
     df_temp = df[['Timestamp', 'NPM I', 'NPM II', 'NPM III', 'Score']]
     df_temp["Score"] = df_temp["Score"].str.split('/').apply(lambda x: int(x[0]))
