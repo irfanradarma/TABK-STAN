@@ -2,6 +2,11 @@ import pandas as pd
 import streamlit as st
 
 st.set_page_config(layout="wide", page_title="Competition")
+hide_github_icon = """
+#GithubIcon {
+  visibility: hidden;
+}
+"""
 
 def olah_NPM(df):
     df_temp = df[['Timestamp', 'NPM I', 'NPM II', 'NPM III', 'Score']]
@@ -81,6 +86,7 @@ def main():
         show(source_1, source_2, source_3, source_kelas, "6-2")
     with tab_63:
         show(source_1, source_2, source_3, source_kelas, "6-3")
+    st.markdown(hide_github_icon, unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
