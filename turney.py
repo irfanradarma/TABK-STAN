@@ -22,8 +22,8 @@ def olah_NPM(df):
     return df_temp
 
 def min_max_scaling(x, min_value, max_value):
-    min_val = 0
-    max_val = 30
+    min_val = min(x)
+    max_val = max(x)
     scaled_value = (x - min_val) * (max_value - min_value) / (max_val - min_val) + min_value
     return scaled_value
 
@@ -80,7 +80,7 @@ def show(source_1, source_2, source_3, source_kelas, kode_kelas):
     with col3:
         with st.container(border=True):
             st.subheader("Babak III")
-            if len(source_2) > 1:
+            if len(source_3) > 1:
                 df3 = olah_NPM(source_3)
                 nilai3 = recap(source_kelas, df3, kode_kelas)
                 st.table(nilai3.style.format({"final_score": "{:.2f}"}))
