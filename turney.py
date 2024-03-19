@@ -58,7 +58,6 @@ def show(source_1, source_2, source_3, source_kelas, kode_kelas):
             if len(source_1) > 1:
                 df1 = olah_NPM(source_1)
                 nilai1 = recap(source_kelas, df1, kode_kelas)
-                st.write("Skor")
                 st.table(nilai1.style.format({"final_score": "{:.2f}"}))
                 next1 = next_team(nilai1)
                 with st.expander("Next Team"):
@@ -120,11 +119,11 @@ def main():
         if st.button("refresh"):
             refresh_data()
     
-    tab_62, tab_63 = st.tabs(["6-02", "6-03"])
-    with tab_62:
-        show(st.session_state.source_1, st.session_state.source_2, st.session_state.source_3, st.session_state.source_kelas, "6-2")
+    tab_63, tab_62 = st.tabs(["6-03", "6-02"])
     with tab_63:
         show(st.session_state.source_1, st.session_state.source_2, st.session_state.source_3, st.session_state.source_kelas, "6-3")
+    with tab_62:
+        show(st.session_state.source_1, st.session_state.source_2, st.session_state.source_3, st.session_state.source_kelas, "6-2")
     
 
 if __name__ == "__main__":
