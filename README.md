@@ -40,7 +40,7 @@ by Teuku Raja Irfan Radarma
   <tr>
     <td>Bahan Praktikum:<br><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2002%20-%20Pengolahan%20Data/Data%20Praktik%20Minggu-2.xlsx" target="_blank">Data Praktikum Pengolahan Data</a><br><br>
     Link Kompetisi:<br>
-    <a href="https://forms.gle/SwAaeJxDtym4NVyx6" target="_blank">- Penyisihan</a><br>
+    <a href="https://forms.gle/SwAaeJxDtym4NVyx6" target="_blank">- Babak I</a><br>
     <a href="https://forms.gle/QAYDQX7QzLyQw2Gq5" target="_blank">- Babak II</a><br>
     <a href="https://forms.gle/PcfgmzPVte9aSDzBA" target="_blank">- Babak III</a></td>
   </tr>
