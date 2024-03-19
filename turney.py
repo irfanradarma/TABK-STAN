@@ -90,7 +90,7 @@ def show(source_1, source_2, source_3, source_kelas, kode_kelas):
         df_merge = nilai1.merge(nilai2, left_on="Nama", right_on="Nama", suffixes=('satu', 'dua'))
         df_merge = df_merge.merge(nilai3, left_on="Nama", right_on="Nama")
         df_merge["FINAL_SCORE"] = df_merge['final_scoresatu'] + df_merge['final_scoredua'] + df_merge['final_score'] 
-        df_merge = df_merge.sort_values("FINAL_SCORE")
+        df_merge = df_merge.sort_values("FINAL_SCORE", ascending=False)
         st.dataframe(df_merge[['Nama', 'FINAL_SCORE']])
 
 
