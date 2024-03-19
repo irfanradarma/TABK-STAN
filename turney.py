@@ -86,6 +86,13 @@ def show(source_1, source_2, source_3, source_kelas, kode_kelas):
                 st.table(nilai3.style.format({"final_score": "{:.2f}"}))
             else:
                 st.empty()
+    with st.expander("Final Score"):
+        df_merge = nilai1.merge(nilai2, left_on="Nama", right_on="Nama", suffixes=('satu', 'dua'))
+        df_merge = df_merge.merge(nilai3, left_on="Nama", right_on="Nama")
+        df_merge["FINAL_SCORE"] = df_merge['final_scoresatu'] + df_merge['final_scoredua'] + df_merge['final_score'] 
+        df_merge = df_merge.sort_values("FINAL_SCORE")
+        st.dataframe(df_merge[['Nama', 'FINAL_SCORE']])
+
 
 def refresh_data():
     st.session_state.source_1 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=1819435083")
