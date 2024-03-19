@@ -6,15 +6,15 @@ st.set_page_config(layout="wide", page_title="Competition")
 def olah_NPM(df):
     df_temp = df[['Timestamp', 'NPM I', 'NPM II', 'NPM III', 'Score']]
     df_temp["Score"] = df_temp["Score"].str.split('/').apply(lambda x: int(x[0]))
-    df_temp = pd.melt(df_temp, id_vars=["Score", "Timestamp"], value_vars=["NPM I", "NPM II", "NPM III"])
-    df_temp = df_temp[["Score", "Timestamp", "value"]]
-    df_temp.columns = ["Score", "Timestamp", "NPM"]
+    df_temp = df_temp.sort_values("Timestamp", ascending=False)
+    df_temp['time_score'] = range(len(df_temp))
+    df_temp = pd.melt(df_temp, id_vars=["Score", "time_score"], value_vars=["NPM I", "NPM II", "NPM III"])
+    df_temp = df_temp[["Score", "time_score", "value"]]
+    df_temp.columns = ["Score", "time_score", "NPM"]
     df_temp = df_temp.dropna()
     df_temp['NPM'] = df_temp['NPM'].astype(str).str.split(".").apply(lambda x: x[0])
     min_value = 0
     max_value = 30
-    df_temp = df_temp.sort_values("Timestamp", ascending=False)
-    df_temp['time_score'] = range(len(df_temp))
     df_temp['time_score'] = df_temp['time_score']**3
     df_temp['time_score'] = min_max_scaling(df_temp['time_score'], min_value, max_value).round(2)
     df_temp['final_score'] = df_temp['Score'] + df_temp['time_score']
@@ -22,8 +22,8 @@ def olah_NPM(df):
     return df_temp
 
 def min_max_scaling(x, min_value, max_value):
-    min_val = min(x)
-    max_val = max(x)
+    min_val = 0
+    max_val = 30
     scaled_value = (x - min_val) * (max_value - min_value) / (max_val - min_val) + min_value
     return scaled_value
 
