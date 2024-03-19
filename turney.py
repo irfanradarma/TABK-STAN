@@ -3,12 +3,16 @@ import streamlit as st
 
 st.set_page_config(layout="wide", page_title="Competition")
 
-def olah_NPM(df):
-    df_temp = df[['Timestamp', 'NPM I', 'NPM II', 'NPM III', 'Score']]
+def olah_NPM(df, kode_kelas):
+    df = df[df["Kelas"]==kode_kelas]
+    df_temp = df[['Timestamp', 'NPM I', 'NPM II', 'Score']]
+    df_temp['NPM I'] = df_temp['NPM I'].astype(str)
+    df_temp['NPM II'] = df_temp['NPM II'].astype(str)
+    df_temp['Score'] = df_temp['Score'].astype(str)
     df_temp["Score"] = df_temp["Score"].str.split('/').apply(lambda x: int(x[0]))
     df_temp = df_temp.sort_values("Timestamp", ascending=False)
     df_temp['time_score'] = range(len(df_temp))
-    df_temp = pd.melt(df_temp, id_vars=["Score", "time_score"], value_vars=["NPM I", "NPM II", "NPM III"])
+    df_temp = pd.melt(df_temp, id_vars=["Score", "time_score"], value_vars=["NPM I", "NPM II"])
     df_temp = df_temp[["Score", "time_score", "value"]]
     df_temp.columns = ["Score", "time_score", "NPM"]
     df_temp = df_temp.dropna()
@@ -56,7 +60,7 @@ def show(source_1, source_2, source_3, source_kelas, kode_kelas):
         with st.container(border=True):
             st.subheader("Babak I")
             if len(source_1) > 1:
-                df1 = olah_NPM(source_1)
+                df1 = olah_NPM(source_1, kode_kelas)
                 nilai1 = recap(source_kelas, df1, kode_kelas)
                 st.table(nilai1.style.format({"final_score": "{:.2f}"}))
                 next1 = next_team(nilai1)
@@ -68,7 +72,7 @@ def show(source_1, source_2, source_3, source_kelas, kode_kelas):
         with st.container(border=True):
             st.subheader("Babak II")
             if len(source_2) > 1:
-                df2 = olah_NPM(source_2)
+                df2 = olah_NPM(source_2, kode_kelas)
                 nilai2 = recap(source_kelas, df2, kode_kelas)
                 st.table(nilai2.style.format({"final_score": "{:.2f}"}))
                 next2 = next_team(nilai2)
@@ -80,7 +84,7 @@ def show(source_1, source_2, source_3, source_kelas, kode_kelas):
         with st.container(border=True):
             st.subheader("Babak III")
             if len(source_3) > 1:
-                df3 = olah_NPM(source_3)
+                df3 = olah_NPM(source_3, kode_kelas)
                 nilai3 = recap(source_kelas, df3, kode_kelas)
                 st.table(nilai3.style.format({"final_score": "{:.2f}"}))
             else:
