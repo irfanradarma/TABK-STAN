@@ -26,11 +26,11 @@ by Teuku Raja Irfan Radarma
     <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2001%20-%20Konsep%20TABK/Dosko/TABK%20pertemuan%201.b%20-%20Pengantar%20Pengendalian%20Intern.pptx">1.b - Pengantar Pengendalian Intern</a></td>
   </tr>
   <tr>
-    <td rowspan="2">2</td>
-    <td rowspan="2">Pengolahan Data Elektronik</td>
-    <td rowspan="2"><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2002%20-%20Pengolahan%20Data/Dosko/kuliah-02.zip">Pengolahan Data Elektronik</a></td>
+    <td rowspan="3">2</td>
+    <td rowspan="3">Pengolahan Data Elektronik</td>
+    <td rowspan="3"><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2002%20-%20Pengolahan%20Data/Dosko/kuliah-02.zip">Pengolahan Data Elektronik</a></td>
     <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2002%20-%20Pengolahan%20Data/02.%20Pengolahan%20Data.pptx" target="_blank">02. Pengolahan Data</a></td>
-    <td rowspan="2"><a href="https://www.youtube.com/watch?v=Kwn8GJyNv64" target="_blank">1. Tutorial Pivot Table</a><br>
+    <td rowspan="3"><a href="https://www.youtube.com/watch?v=Kwn8GJyNv64" target="_blank">1. Tutorial Pivot Table</a><br>
     <a href="https://www.youtube.com/watch?v=bhfRlU_bNmw" target="_blank">2. Tutorial SUM, SUMIF, SUMIFS</a><br>
     <a href="https://www.youtube.com/watch?v=OekP7P-Xw4I" target="_blank">3. Tutorial CONSOLIDATE</a><br>
     <a href="https://www.youtube.com/watch?v=JNZqRYkgZ4c" target="_blank">4. Tutorial Filtering Data</a><br>
@@ -43,6 +43,10 @@ by Teuku Raja Irfan Radarma
     <a href="https://forms.gle/SwAaeJxDtym4NVyx6" target="_blank">- Babak I</a><br>
     <a href="https://forms.gle/QAYDQX7QzLyQw2Gq5" target="_blank">- Babak II</a><br>
     <a href="https://forms.gle/PcfgmzPVte9aSDzBA" target="_blank">- Babak III</a></td>
+  </tr>
+    <td>Tugas I:<br><a href="https://forms.gle/cydE4PMufwyGxj3q8">Form Submission</a>
+    </td>
+  <tr>
   </tr>
   <tr>
     <td>3</td>
