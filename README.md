@@ -42,7 +42,9 @@ by Teuku Raja Irfan Radarma
     Link Kompetisi:<br>
     <a href="https://forms.gle/SwAaeJxDtym4NVyx6" target="_blank">- Babak I</a><br>
     <a href="https://forms.gle/QAYDQX7QzLyQw2Gq5" target="_blank">- Babak II</a><br>
-    <a href="https://forms.gle/PcfgmzPVte9aSDzBA" target="_blank">- Babak III</a></td>
+    <a href="https://forms.gle/PcfgmzPVte9aSDzBA" target="_blank">- Babak III</a><br>
+    <br>
+    <a href="https://tabk-stan.streamlit.app/">Leaderboard</a></td>
   </tr>
     <td>Tugas I:<br><a href="https://forms.gle/cydE4PMufwyGxj3q8">Form Submission</a>
     </td>
