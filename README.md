@@ -7,6 +7,9 @@ by Teuku Raja Irfan Radarma
 
 ### Bahan Perkuliahan
 
+Referensi<br>
+
+
 <table border="1" width="100%">
   <tr>
     <th>No</th>
@@ -53,7 +56,7 @@ by Teuku Raja Irfan Radarma
   <tr>
     <td>3</td>
     <td>Pengendalian Aplikasi I</td>
-    <td>---</td>
+    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2003%20-%20Pengendalian%20Aplikasi/Dosko/Validasi%20Data.pptx">Validasi Data</a></td>
     <td>---</td>
     <td>---</td>
   </tr>
