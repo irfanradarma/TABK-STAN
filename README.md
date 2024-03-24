@@ -58,11 +58,11 @@ by Teuku Raja Irfan Radarma
     <td>Pengendalian Aplikasi I</td>
     <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2003%20-%20Pengendalian%20Aplikasi/Dosko/Validasi%20Data.pptx" target="_blank">Validasi Data</a></td>
     <td>Slide:<br>
-        03. Pengendalian Aplikasi<br><br>
+        <a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2003%20-%20Pengendalian%20Aplikasi/03.%20Pengendalian%20Aplikasi.pdf" target="_blank">03. Pengendalian Aplikasi</a><br><br>
         Bahan Praktikum:<br>
-        Data Praktik Pengendalian Input</td>
+        <a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2003%20-%20Pengendalian%20Aplikasi/Data%20Praktik%20Minggu-3.xlsx" target="_blank">Data Praktik Pengendalian Input</a></td>
     <td><a href="https://forms.gle/SghsmtAwdDKDhen57" target="_blank">1. Submit Desain Pengendalian</a><br><br>
-        <a href="https://forms.gle/AUzDF3TeDP7anbS26" target="_blank"</a>2. Submit Pengujian Desain</td>
+        <a href="https://forms.gle/AUzDF3TeDP7anbS26" target="_blank">2. Submit Pengujian Desain</a></td>
   </tr>
   <tr>
     <td>4</td>
