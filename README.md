@@ -7,7 +7,7 @@ by Teuku Raja Irfan Radarma
 
 ### Bahan Perkuliahan
 
-<a href="https://tabk-irfan.streamlit.app">Page Aktivitas dan Tugas</a><br>
+<a href="https://tabk-stan.streamlit.app">Page Aktivitas dan Tugas</a><br>
 
 
 <table border="1" width="100%">
