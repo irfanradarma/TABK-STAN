@@ -7,7 +7,7 @@ by Teuku Raja Irfan Radarma
 
 ### Bahan Perkuliahan
 
-Referensi<br>
+<a href="https://tabk-irfan.streamlit.app">Page Aktivitas dan Tugas</a><br>
 
 
 <table border="1" width="100%">
@@ -56,9 +56,13 @@ Referensi<br>
   <tr>
     <td>3</td>
     <td>Pengendalian Aplikasi I</td>
-    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2003%20-%20Pengendalian%20Aplikasi/Dosko/Validasi%20Data.pptx">Validasi Data</a></td>
-    <td>---</td>
-    <td>---</td>
+    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2003%20-%20Pengendalian%20Aplikasi/Dosko/Validasi%20Data.pptx" target="_blank">Validasi Data</a></td>
+    <td>Slide:<br>
+        03. Pengendalian Aplikasi<br><br>
+        Bahan Praktikum:<br>
+        Data Praktik Pengendalian Input</td>
+    <td><a href="https://forms.gle/SghsmtAwdDKDhen57" target="_blank">1. Submit Desain Pengendalian</a><br><br>
+        <a href="https://forms.gle/AUzDF3TeDP7anbS26" target="_blank"</a>2. Submit Pengujian Desain</td>
   </tr>
   <tr>
     <td>4</td>

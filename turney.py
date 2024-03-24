@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 
-st.set_page_config(layout="wide", page_title="Competition")
+st.set_page_config(layout="wide", page_title="TABK-Irfan")
 
 def olah_NPM(df, kode_kelas):
     df = df[df["Kelas"]==kode_kelas]
@@ -99,36 +99,106 @@ def show(source_1, source_2, source_3, source_kelas, kode_kelas):
 
 
 def refresh_data():
-    st.session_state.source_1 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=1819435083")
-    st.session_state.source_2 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=903057001")
-    st.session_state.source_3 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=857540612")
-    st.session_state.source_kelas = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=191090434")
+    st.session_state.turney1_1 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=1819435083")
+    st.session_state.turney1_2 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=903057001")
+    st.session_state.turney1_3 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=857540612")
+    st.session_state.data_kelas = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=191090434")
+
+def page_turney1():
+    st.subheader("Kompetisi Pengolahan Data")
+    st.write("Minggu ke-2")
+    if "turney1_1" not in st.session_state:
+        st.session_state.turney1_1 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=1819435083")
+    if "turney1_2" not in st.session_state:
+        st.session_state.turney1_2 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=903057001")
+    if "turney1_3" not in st.session_state:
+        st.session_state.turney1_3 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=857540612")
+    tab_62, tab_63 = st.tabs(["6-02", "6-03"])
+    with tab_63:
+        show(st.session_state.turney1_1, st.session_state.turney1_2, st.session_state.turney1_3, st.session_state.data_kelas, "6-3")
+    with tab_62:
+        show(st.session_state.turney1_1, st.session_state.turney1_2, st.session_state.turney1_3, st.session_state.data_kelas, "6-2")
+
+def page_tugas1():
+    st.subheader("Tugas I")
+    st.write("Membuat Pertanyaan berkaitan dengan materi minggu ke-1 dan minggu ke-2")
+    tugas1 = pd.read_csv("https://docs.google.com/spreadsheets/d/1RleFeOXO9Z5M8g1wdyyB19J0MdQQKKMgV6s7s6uJteg/export?format=csv&gid=595386302")
+    data_kelas = st.session_state.data_kelas
+    tugas1['NPM'] = tugas1['NPM'].astype(str)
+    data_kelas['NPM'] = data_kelas['NPM'].astype(str)
+    df_tugas1 = pd.merge(data_kelas, tugas1, how="left", on=["NPM", "NPM"])
+    df_tugas1 = df_tugas1[['NPM', 'Nama', 'Timestamp', 'Kelas']]
+    df_tugas1 = df_tugas1.fillna('BELUM SUBMIT')
+    df_tugas1.rename(columns={'Timestamp' : "Submission"}, inplace=True)
+    df_tugas1_62 = df_tugas1[df_tugas1['Kelas'] == '6-2']
+    df_tugas1_62.index = range(1, len(df_tugas1_62)+1)
+    df_tugas1_63 = df_tugas1[df_tugas1['Kelas'] == '6-3']
+    df_tugas1_63.index = range(1, len(df_tugas1_63)+1)
+    col_tugas1_62, col_tugas1_63 = st.columns(2)
+    with col_tugas1_62:
+        belum = len(df_tugas1_62[df_tugas1_62['Submission']!='BELUM SUBMIT'])
+        st.subheader("6-02")
+        st.write(f"{belum}/{len(df_tugas1_62)}")
+        st.dataframe(df_tugas1_62[['Nama', 'Submission']], use_container_width=True)
+    with col_tugas1_63:
+        belum = len(df_tugas1_63[df_tugas1_63['Submission']!='BELUM SUBMIT'])
+        st.subheader("6-03")
+        st.write(f"{belum}/{len(df_tugas1_63)}")
+        st.dataframe(df_tugas1_63[['Nama', 'Submission']], use_container_width=True)
+
+def aktivitas2():
+    tab_akt2_62, tab_akt2_63 = st.tabs(["6-02", "6-03"])
+    df_akt2_sub = pd.read_csv("https://docs.google.com/spreadsheets/d/1jGcZapP0WmIcvIuIJBMDF0DzWAjy8eCIO8vKwPhflqE/export?format=csv&gid=1292952548")
+    data_kelas = st.session_state.data_kelas
+    df_akt2 = df_akt2_sub.merge(data_kelas, left_on="NPM", right_on="NPM")
+    df_akt2 = df_akt2[['NPM', 'Nama', 'Unggah file Excel', 'Kelas']]
+    df_akt2.columns = ['NPM', 'Nama', 'File Excel', 'Kelas']
+    with tab_akt2_62:
+        df_akt2_62 = df_akt2[df_akt2['Kelas'] == '6-2'][['NPM', 'Nama', 'File Excel',]]
+        df_akt2_62.index = range(1, len(df_akt2_62)+1)
+        st.dataframe(df_akt2_62)
+    with tab_akt2_63:
+        df_akt2_63 = df_akt2[df_akt2['Kelas'] == '6-3'][['NPM', 'Nama', 'File Excel',]]
+        df_akt2_63.index = range(1, len(df_akt2_63)+1)
+        st.dataframe(df_akt2_63)
 
 def main():
-    st.header("Leaderboard Pengolahan Data")
-    if "source_1" not in st.session_state:
-        # st.session_state.source_1 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=275808846") #dummy
-        st.session_state.source_1 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=1819435083")
-    if "source_2" not in st.session_state:
-        st.session_state.source_2 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=903057001")
-    if "source_3" not in st.session_state:
-        st.session_state.source_3 = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=857540612")
-    if "source_kelas" not in st.session_state:
-        st.session_state.source_kelas = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=191090434")
-
+    st.markdown(
+    """
+    <style>
+        section[data-testid="stSidebar"] {
+            width: 100px !important; # Set the width to your desired value
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+    if "data_kelas" not in st.session_state:
+        st.session_state.data_kelas = pd.read_csv("https://docs.google.com/spreadsheets/d/14Ouf1pPmmCoqYMxVhEleA93Tz7K2H3W2Q8_V8LpRDWk/export?format=csv&gid=191090434")
+    st.header("Teknik Audit Berbantuan Komputer")
     main_col1, main_col2 = st.columns([0.8, 0.2])
     with main_col1:
-        st.write("Minggu-2 TABK by Teuku Raja Irfan Radarma")
+        st.write("by Teuku Raja Irfan Radarma")
     with main_col2:
         if st.button("refresh"):
             refresh_data()
-    
-    tab_63, tab_62 = st.tabs(["6-03", "6-02"])
-    with tab_63:
-        show(st.session_state.source_1, st.session_state.source_2, st.session_state.source_3, st.session_state.source_kelas, "6-3")
-    with tab_62:
-        show(st.session_state.source_1, st.session_state.source_2, st.session_state.source_3, st.session_state.source_kelas, "6-2")
-    
+
+    st.sidebar.subheader("Navigasi")
+    if st.sidebar.button("Aktivitas Kelas"):
+        st.session_state.active_page = "Kompetisi"
+    if st.sidebar.button("Tugas"):
+        st.session_state.active_page = "Tugas"
+
+    if "active_page" not in st.session_state:
+        st.session_state.active_page = "Tugas"
+    if st.session_state.active_page == "Tugas":
+        page_tugas1()
+    elif st.session_state.active_page == "Kompetisi":
+        tab_akt1, tab_akt2 = st.tabs(["Pengolahan Data", "Pengendalian Aplikasi"])
+        with tab_akt1:
+            page_turney1()
+        with tab_akt2:
+            aktivitas2()
 
 if __name__ == "__main__":
     main()
