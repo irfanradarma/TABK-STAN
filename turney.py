@@ -150,17 +150,22 @@ def aktivitas2():
     tab_akt2_62, tab_akt2_63 = st.tabs(["6-02", "6-03"])
     df_akt2_sub = pd.read_csv("https://docs.google.com/spreadsheets/d/1jGcZapP0WmIcvIuIJBMDF0DzWAjy8eCIO8vKwPhflqE/export?format=csv&gid=1292952548")
     data_kelas = st.session_state.data_kelas
-    df_akt2 = df_akt2_sub.merge(data_kelas, left_on="NPM", right_on="NPM")
+    df_akt2_sub["NPM"] = df_akt2_sub["NPM"].astype(str)
+    data_kelas["NPM"] = data_kelas["NPM"].astype(str)
+    df_akt2 = pd.merge(df_akt2_sub, data_kelas, how="right", on=["NPM", "NPM"])
     df_akt2 = df_akt2[['NPM', 'Nama', 'Unggah file Excel', 'Kelas']]
     df_akt2.columns = ['NPM', 'Nama', 'File Excel', 'Kelas']
     with tab_akt2_62:
         df_akt2_62 = df_akt2[df_akt2['Kelas'] == '6-2'][['NPM', 'Nama', 'File Excel',]]
         df_akt2_62.index = range(1, len(df_akt2_62)+1)
-        st.dataframe(df_akt2_62)
+        st.data_editor(df_akt2_62, use_container_width=True,
+                       column_config={"File Excel" : st.column_config.LinkColumn("File Excel", display_text="Unduh")})
     with tab_akt2_63:
         df_akt2_63 = df_akt2[df_akt2['Kelas'] == '6-3'][['NPM', 'Nama', 'File Excel',]]
         df_akt2_63.index = range(1, len(df_akt2_63)+1)
-        st.dataframe(df_akt2_63)
+        st.data_editor(df_akt2_63, use_container_width=True,
+                       column_config={"File Excel" : st.column_config.LinkColumn("File Excel", display_text="Unduh")})
+
 
 def main():
     st.markdown(
