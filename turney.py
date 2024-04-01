@@ -166,6 +166,47 @@ def aktivitas2():
         st.data_editor(df_akt2_63, use_container_width=True,
                        column_config={"File Excel" : st.column_config.LinkColumn("File Excel", display_text="Unduh")})
 
+def grouping(df, num):
+    df1 = df[['NPM', 'Nama', 'GROUP']]
+    df1['NPM'] = df1['NPM'].astype('str')
+    df1 = df1[df1['GROUP'] == num]
+    return df1[['NPM','Nama']]
+
+def aktivitas3():
+    tab_akt3_62, tab_akt3_63 = st.tabs(["6-02", "6-03"])
+    df_akt3 = pd.read_csv("https://docs.google.com/spreadsheets/d/1jGcZapP0WmIcvIuIJBMDF0DzWAjy8eCIO8vKwPhflqE/export?format=csv&gid=1130162752")
+    with tab_akt3_62:
+        df_62 = df_akt3[df_akt3['Kelas']=='6-2']
+        grup_col1, grup_col2 = st.columns(2)
+        with grup_col1:
+            st.subheader("Grup 1")
+            st.dataframe(grouping(df_62, 1), hide_index=True, use_container_width=True)
+        with grup_col2:
+            st.subheader("Grup 2")
+            st.dataframe(grouping(df_62, 2), hide_index=True, use_container_width=True)
+        grup_col3, grup_col4 = st.columns(2)
+        with grup_col3:
+            st.subheader("Grup 3")
+            st.dataframe(grouping(df_62, 3), hide_index=True, use_container_width=True)
+        with grup_col4:
+            st.subheader("Grup 4")
+            st.dataframe(grouping(df_62, 4), hide_index=True, use_container_width=True)
+    with tab_akt3_63:
+        df_63 = df_akt3[df_akt3['Kelas']=='6-3']
+        grup_col1, grup_col2 = st.columns(2)
+        with grup_col1:
+            st.subheader("Grup 1")
+            st.dataframe(grouping(df_63, 1), hide_index=True, use_container_width=True)
+        with grup_col2:
+            st.subheader("Grup 2")
+            st.dataframe(grouping(df_63, 2), hide_index=True, use_container_width=True)
+        grup_col3, grup_col4 = st.columns(2)
+        with grup_col3:
+            st.subheader("Grup 3")
+            st.dataframe(grouping(df_63, 3), hide_index=True, use_container_width=True)
+        with grup_col4:
+            st.subheader("Grup 4")
+            st.dataframe(grouping(df_63, 4), hide_index=True, use_container_width=True)
 
 def main():
     st.markdown(
@@ -199,11 +240,13 @@ def main():
     if st.session_state.active_page == "Tugas":
         page_tugas1()
     elif st.session_state.active_page == "Kompetisi":
-        tab_akt1, tab_akt2 = st.tabs(["Pengolahan Data", "Pengendalian Aplikasi"])
+        tab_akt1, tab_akt2, tab_akt3 = st.tabs(["Pengolahan Data", "AppCon I", "AppCon II"])
         with tab_akt1:
             page_turney1()
         with tab_akt2:
             aktivitas2()
+        with tab_akt3:
+            aktivitas3()
 
 if __name__ == "__main__":
     main()
