@@ -67,8 +67,8 @@ by Teuku Raja Irfan Radarma
   <tr>
     <td>4</td>
     <td>Pengendalian Aplikasi II</td>
-    <td>---</td>
-    <td>---</td>
+    <td>-sda-</td>
+    <td><i>bahan tayang tidak dibagikan karena isu kerahasiaan data</i></td>
     <td>---</td>
   </tr>
   <tr>
@@ -105,7 +105,7 @@ by Teuku Raja Irfan Radarma
   </tr>
   <tr>
     <td>10</td>
-    <td>Data, Tabel, dan Query I</td>
+    <td>Data, Tabel, dan Query II</td>
     <td>---</td>
     <td>---</td>
     <td>---</td>
