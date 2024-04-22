@@ -74,9 +74,9 @@ by Teuku Raja Irfan Radarma
   <tr>
     <td>5</td>
     <td>Impor dan Ekspor Data</td>
-    <td>---</td>
-    <td>---</td>
-    <td>---</td>
+    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2005%20-%20Impor%20dan%20Ekspor/Dosko/TABK%20pertemuan%203%20-%20Transfer%20dan%20Impor%20Data.pptx" target="_blank">Transfer dan Impor Data</a></td>
+    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2005%20-%20Impor%20dan%20Ekspor/05.%20Impor%20Data.pptx" target="_blank">05. Akses, Impor, dan Ekspor Data</a></td>
+    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2005%20-%20Impor%20dan%20Ekspor/Data%20Impor.zip" target="_blank">Data Latihan</a></td>
   </tr>
   <tr>
     <td>6</td>
