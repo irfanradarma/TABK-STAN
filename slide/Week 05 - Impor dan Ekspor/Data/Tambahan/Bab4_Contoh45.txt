@@ -1,0 +1,233 @@
+
+  01/08/05                 Laporan Penilaian Persediaan               Hal  1
+  09:44:42                     31 Desember 2004
+
+                                         Quantity     Unit     Total Cost
+                                                      Cost
+
+   Kelompok Produk: 01 -  Alat Rumah Tangga
+
+     010102710 ALUMINUM TEAPOT 8 CUP          144        5.99      862.56
+     010102840 PRESSURE COOKER 8QT            400       39.40    15760.00
+     010119040 BLANCHER                       190        8.00     1520.00
+     010134420 VEGETABLE STEAMER               50        3.12      156.00
+     010135060 192 OZ DUTCH OVEN              230       27.60     6348.00
+     010155150 STEP-ON CAN                    132        8.40     1108.80
+     010155160 1 SHELF BREADBOX                56        9.93      556.08
+     010155170 4 PC CANISTER SET               96        7.05      676.80
+     010207220 NAPKIN & RELISH HOLDER         212        3.22      682.64
+     010226620 CAKE DECORATING SET             48       10.80      518.40
+     010310890 MINCER                          86       14.14     1216.04
+     010311800 PASTA NOODLE MAKER              64       24.88     1592.32
+     010311990 DIET SCALE                     290        2.98      864.20
+     010551340 DISH DRAINER                   412        6.56     2702.72
+     010631140 CAKE PAN                       140        3.09      432.60
+     010631190 LOAF PAN                        36        3.10      111.60
+     010803760 7 PC KITCHEN TOOL SET           48       -3.21     -154.08
+                                        ----------------------------------
+                   Total:                    2634                34954.68
+                                        ----------------------------------
+
+   Kelompok Produk: 02 -  Alat Olahraga
+
+     023903712 FISH N FILLET BOARD            120       10.73     1287.60
+     023946372 TEHO ROD AND REEL              110        6.43      707.30
+     023973042 MORA ICE DRILL EXTN             75        3.32      249.00
+     024100312 COOPER HOCKEY HELMET            95        8.42      799.90
+     024104312 SNOW-JET MOBILE                 12       12.10      145.20
+     024106512 HOCKEY PANTS                   125       14.80     1850.00
+     024108612 ESKIMO TOBOGGAN 6FT             45       15.87      714.15
+     024112162 CURLING SLIDERS                310        5.18     1605.80
+     024121332 MOUTH GUARD                    345        2.80      966.00
+     024128712 NEOLITE SKATE GUARDS           450        1.01      454.50
+     024128812 COOPER SPORTS BAG              170        3.10      527.00
+     024128932 NOSE & MOUTH GUARD             300        3.49     1047.00
+     024130572 BANANA PEEL SLIDER              90        5.30      477.00
+     024133112 HOCKEY NET SET                 200       10.60     2120.00
+     024139372 WAX KIT                        235        5.94     1395.90
+     024140032 MENS SNOSHOES                   75       27.41     2055.75
+     024144812 TRUNK SKI CARRIER              110       10.73     1180.30
+     024188432 LADIES FIGURE SKATES            80       28.15     2252.00
+     024195262 SNOWSHOE HARNESS               140        5.07      709.80
+                                        ----------------------------------
+                   Total:                    3087                20544.20
+                                        ----------------------------------
+
+  01/08/05                 Inventory Valuation Report               Hal  2
+  09:44:43                  As At December 31, 2000
+
+                                         Quantity     Unit     Total Cost
+                                                      Cost
+
+   Kelompok Produk: 03 -  Perkakas Tangan
+
+     030030323 LONG NOSE PLIERS  7"           412        5.00     2060.00
+     030302303 MITRE BOX  21"                 600       41.23    24738.00
+     030302903 4 PC CHISEL SET                795       10.12     8045.40
+     030303343 STRAIGHT CLAW HAMMER           735        8.83     6490.05
+     030303403 12 OZ BALL PEIN HAMMER         536        4.12     2208.32
+     030303413 8 OZ BALL PEIN HAMMER         1248        3.90     4867.20
+     030305603 #4 SMOOTH PLANE                804       14.12    11352.48
+     030309373 HEAVY DUTY BRACE               842       10.12     8521.04
+     030321663 SCREW DRIVER 1/8 X 4 SL       1478        0.73     1078.94
+     030321683 SCREW DRIVER 1/4 X 6 SL       1248        1.47     1834.56
+     030322303 SCREW DRIVER NO.3 PHILL        587        1.22      716.14
+     030324803 ARC JOINT PLIERS  6"           625        3.99     2493.75
+     030324883 ARC JOINT PLIERS  16"          875        9.40     8225.00
+     030364163 TAP & DIE SET  41 PIECES       -12       49.60     -595.20
+     030412553 6 PC OPEN END WRENCH SET       700       11.53     8071.00
+     030412753 6 PC BOX END WRENCH SET        248       12.50     3100.00
+     030412903 8 PC METRIC HEX KEYS           248        2.48      615.04
+     030414283 METRIC SOCKET SET  11 PC       612       18.00    11016.00
+     030414313 METRIC TOOL SET 3/8" DR        130       47.00     6110.00
+     030934423 DIAGONAL CUTTING PLIERS        624        4.98     3107.52
+     034255003 PARKER PROPANE KIT (7PC)         0        8.40        0.00
+                                        ----------------------------------
+                   Total:                     13335               114055.24
+                                        ----------------------------------
+
+   Kelompok Produk: 04 -  Perkakas Listrik
+
+     040220074 3/8" COMPACT DRILL PRESS       140       62.00     8680.00
+     040224984 ROUTER BOX                       0        8.80        0.00
+     040225014 6 PC WOODBORIN SET             870        8.70     7569.00
+     040225934 MASONRY DRILL SET              450        5.10     2295.00
+     040226054 12 PC PILOT BIT SET            740        8.70     6438.00
+     040232194 12 SP AUTO SCROLLER SAW        210       59.60    12516.00
+     040240284 FORMICA CUTTING BIT            140        7.40     1036.00
+     040240664 SHAPENER FOR 1/4" BITS         135       29.60     3996.00
+     040240884 ADJ EDGE GUIDE                 380        6.90     2622.00
+     040241314 ROUT-A-FORM PANTOGRAPH         375       18.70     7012.50
+     040241754 STEEL ROUTER TABLE              60       14.12      847.20
+     040243224 2 SP ROTARY SANDER              70       52.80     3696.00
+     040247034 SET OF 6 ROTARY CUTTERS        840       12.40    10416.00
+     040270324 RADIAL ARM SAW 10" HD           30      381.20    11436.00
+     040270354 MOLDING HEAD GUARD              55       14.12      776.60
+     040276054 21 PC MONO-CUTTER SET          120       36.50     4380.00
+     040277154 ADJUSTABLE DADO                145       36.57     5302.65
+                                        ----------------------------------
+                   Total:                    4760                89018.95
+                                        ----------------------------------
+
+  01/08/05                 Inventory Valuation Report               Hal  3
+  09:44:43                  As At December 31, 2000
+
+                                         Quantity     Unit     Total Cost
+                                                      Cost
+
+   Kelompok Produk: 05 -  Produk Kayu
+
+     052204515 PANELLING  BIRCH    4X8        412        7.94     3271.28
+     052204525 PANELLING  ROSEWOOD 4X8        364        9.40     3421.60
+     052208805 PANELLING  PINE     4X8        108        6.12      660.96
+     052210545 2X3 2&B       PER LINEAL      1000        0.01       10.00
+     052484405 PLYWOOD 4X8X 1/4  GIS          500        4.88     2440.00
+     052484415 PLYWOOD 4X8X 1/2  GIS          600        5.20     3120.00
+     052484425 PLYWOOD 4X8X 3/4  GIS          314        7.12     2235.68
+     052484435 PLYWOOD 4X8X 1/4 REJECT        118        2.88      339.84
+     052504005 5/16 SHEATHING                5000        3.94    19700.00
+     052530155 CEDAR STRAPPING   PER/FT     71000        0.03     2130.00
+     052720305 1X8 SHIPLAP   PER MFBM          32       41.00     1312.00
+     052720615 2X4 RANDOM    PER MFBM          18       41.00      738.00
+     052770015 2X8 2&B       PER LINEAL     10000        0.31     3100.00
+                                        ----------------------------------
+                   Total:                     89466                42479.36
+                                        ----------------------------------
+
+   Kelompok Produk: 06 -  Perkakas Berat 
+
+     060100306 CYLINDRICAL LOCK SET BLK       170       11.20     1904.00
+     060100316 BATH LOCK SET  BRASS            40        6.10      244.00
+     060100336 BATH LOCK SET  COPPER          210        8.70     1827.00
+     060100356 BATH LOCK SET  ALUMINUM         55        6.00      330.00
+     060102066 CLASSIC ENTRANCE SET BLK        77       19.90     1532.30
+     060102086 COLONIAL ENTRANCE SET BR       155       32.08     4972.40
+     060102096 SEVILLE ENTRANCE SET BR        300       38.70    11610.00
+     060102106 CAPE COD ENTR SET    BLK       210       19.90     4179.00
+     060102116 CAPE COD ENTR SET    BR        154       21.40     3295.60
+     060112276 MATCHING DOOR KNOCKERBLK        90        9.40      846.00
+     060112296 LION DOOR KNOCKER    BR        184       11.20     2060.80
+     060112356 MATCHING DOOR KNOCKER BR       140       14.10     1974.00
+     060200306 CYLINDRICAL LOCK SET BR        163       12.40     2021.20
+     060217066 ALUMINUM DOOR                  188       87.40    16431.20
+     060221496 WHITE ENAMEL GRILL             312        8.40     2620.80
+     060221506 BLACK ENAMEL GRILL             262        8.40     2200.80
+     060221676 PNEUMATIC DOOR CLOSER          205        2.10      430.50
+                                        ----------------------------------
+                   Total:                    2915                58479.60
+                                        ----------------------------------
+
+   Kelompok Produk: 07 -  Peralatan Cat 
+
+     070104177 LATEX SEMI-GLOSS LILAC        1480       -6.87   -10167.60
+     070104327 LATEX SEMI-GLOSS YELLOW       2420        6.87    16625.40
+     070104347 LATEX SEMI-GLOSS ORANGE        870        6.87     5976.90
+     070104377 LATEX SEMI-GLOSS GREEN        1870        6.87    12846.90
+     070104397 LATEX SEMI-GLOSS CARAMEL       460        6.87     3160.20
+     070104657 LATEX SEMI-GLOSS PINK         1500        6.87    10305.00
+     070104677 LATEX SEMI-GLOSS APRICOT      1290        6.87     8862.30
+                                        ----------------------------------
+                   Total:                    9890                47609.10
+                                        ----------------------------------
+
+  01/08/05                 Inventory Valuation Report               Hal  4
+  09:44:44                  As At December 31, 2000
+
+                                         Quantity     Unit     Total Cost
+                                                      Cost
+
+   Kelompok Produk: 08 -  Peralatan Pipa
+
+     080100818 1/2" 90 DEGREE ELBOW COP      1100        0.19      209.00
+     080101018 1/2" 45 DEGREE ELBOW COP      1200        0.37      444.00
+     080102618 1/2" SOFT TUBING 30'COIL      6000       16.80   100800.00
+     080102628 R161D TUBING 1/2" -12'        5300        7.00    37100.00
+     080102918 1/2" TEE COPPER TO COP        1500        0.29      435.00
+     080106218 1/2" GATE VALVE COPPER        1300        2.30     2990.00
+     080122158 Y FITTING  4"                 1390        3.21     4461.90
+     080123438 ADAPTER FIBERCAST 3"X4"        530        2.79     1478.70
+     080123938 NEOPRENE ROOF FLASH 3"         210        4.14      869.40
+     080123968 REDVGING TY  3"X3"X1"          420        2.68     1125.60
+     080124518 DRAINAGE TY  3"                610        2.79     1701.90
+     080126008 1/2" CPVC PLASTIC PIPE        9600        2.41    23136.00
+     080126058 1/2" CPVC MALE ADAPTER         860        0.33      283.80
+     080126308 1/2" CPVC PIPE STRAP          1250        0.24      300.00
+     080435438 DUAL LEVER FAUCET-NO-SPR        93       40.24     3742.32
+     080512778 COMPACT DOUBLE BOWEL SNK       112       36.18     4052.16
+     080935298 HYDROMOULD SWING-SPOUT          47       21.12      992.64
+     080935428 DUAL LEVER FAUCET -SPRAY       116       44.24     5131.84
+     080938748 CHROME ANGLE 1/2X3/8 COM       700        2.99     2093.00
+     080938998 CHROME ST 1/2"X 3/8"COMP       450        2.99     1345.50
+                                        ----------------------------------
+                   Total:                     32788               192692.76
+                                        ----------------------------------
+
+   Kelompok Produk: 09 -  Peralatan Kebun
+
+     090010011 HOSE HANGER                    300        0.43      129.00
+     090069591 4 CU FT WHEELBARROW             -8       23.84     -190.72
+     090081001 SUPER CALLUM LEAF MULCH         12      155.80     1869.60
+     090501051 11" SPADING FORK               714        4.82     3441.48
+     090501541 24" LEAF RAKE                  212        3.00      636.00
+     090501551 20" LEAF RAKE                  800        1.83     1464.00
+     090504061 54" EDGING TURF                610        1.37      835.70
+     090504761 6" EDGE TRIMMER                914        6.17     5639.38
+     090506331 5 PIECE GARDEN TOOL SET        408       -6.80    -2774.40
+     090507811 50' RUBBER HOSE                200        8.08     1616.00
+     090507841 25' VINYL HOSE                  40        2.88      115.20
+     090507851 50' VINYL HOSE                  30        5.12      153.60
+     090508191 PISTOL GRIP NOZZLE             815        1.63     1328.45
+     090509561 PLASTIC WATERING CAN           112        0.63       70.56
+     090509931 OSCILLATING SPRINKLER         3840        5.84    22425.60
+     090509981 IMPULSE SPRINKLER              900        5.12     4608.00
+     090584072 22" SELF-PROPELLED MOW         147      173.80    25548.60
+     090585322 18" REEL MOWER                  88      137.80    12126.40
+     090599912 18" BUSHWACKER TRIMMER          43       21.40      920.20
+     090669611 3 CU FT WHEELBARROW             47        9.00      423.00
+     093788411 1" GARDEN HOSE                 186        1.40      260.40
+                                        ----------------------------------
+                   Total:                     10410                80646.05
+                                        ----------------------------------
+
+          Total Laporan:                   169285               680479.94
+                                        ==================================

@@ -1,0 +1,858 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:rpi="http://www.fujitsu.com/raportado/ixbrl" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:idx-cor="http://www.idx.co.id/xbrl/taxonomy/2014-04-30/cor" xmlns:idx-dei="http://www.idx.co.id/xbrl/taxonomy/2014-04-30/dei" xmlns:test2012-12-31="http://www.idx.co.id/xbrl/samples/TEST/2012-12-31" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:idx-rt="http://www.idx.co.id/xbrl/taxonomy/2014-04-30/rt" xmlns:idx-dei-cm="http://www.idx.co.id/xbrl/taxonomy/2014-04-30/dei/cm" xmlns:negated="http://www.xbrl.org/2009/role/negated" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+ <!--1000000.html-->
+ <head> 
+  <style type="text/css">
+p.MsoNormal {
+font-family: "Arial","sans-serif"; font-size: 9pt; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+li.MsoNormal {
+font-family: "Arial","sans-serif"; font-size: 9pt; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+div.MsoNormal {
+font-family: "Arial","sans-serif"; font-size: 9pt; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+td.MsoNormal {
+font-family: "Arial","sans-serif"; font-size: 9pt; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+p.MsoHeader {
+font-family: "Arial","sans-serif"; font-size: 9pt; layout-grid-mode: char; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+li.MsoHeader {
+font-family: "Arial","sans-serif"; font-size: 9pt; layout-grid-mode: char; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+div.MsoHeader {
+font-family: "Arial","sans-serif"; font-size: 9pt; layout-grid-mode: char; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+p.MsoFooter {
+font-family: "Arial","sans-serif"; font-size: 9pt; layout-grid-mode: char; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+li.MsoFooter {
+font-family: "Arial","sans-serif"; font-size: 9pt; layout-grid-mode: char; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+div.MsoFooter {
+font-family: "Arial","sans-serif"; font-size: 9pt; layout-grid-mode: char; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+p.MsoAcetate {
+font-family: "Arial","sans-serif"; font-size: 9pt; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+li.MsoAcetate {
+font-family: "Arial","sans-serif"; font-size: 9pt; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+div.MsoAcetate {
+font-family: "Arial","sans-serif"; font-size: 9pt; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+span.MsoPlaceholderText {
+color: gray;
+}
+span.a {
+font-family: "Arial","sans-serif";
+}
+span.a0 {
+font-family: "Arial","sans-serif";
+}
+span.a1 {
+font-family: "Arial","sans-serif";
+}
+.MsoChpDefault {
+font-family: "Century","serif";
+}
+.MsoPapDefault {
+text-align: justify; text-justify: inter-ideograph;
+}
+
+	.titleID01 { font-family: Arial,Helvetica,sans-serif; font-size: 13.5pt; font-weight:bold; color: #000000; padding:5px; border-spacing:0px; vertical-align:top; text-align:left; }
+	.titleEN01 { font-family: Arial,Helvetica,sans-serif; font-size: 13.5pt; font-weight:bold; color: #000000; padding:5px; border-spacing:0px; vertical-align:top; text-align:right; }
+
+	.table01 { font-family: Arial,Helvetica,sans-serif; font-size: 10pt; padding:5px; border-spacing:0px; }
+	.colHeader01 { padding:1px; background-color:#FFFFFF; color:#000000; text-decoration:underline; font-weight:bold; text-align:center; border-left:3px solid white; border-right:3px solid white; font-size: 8pt;}
+	.rowHeaderID01 { padding:1px; border-bottom:1px solid #CCCCCC; text-align:left; color:#000000; vertical-align:top; font-size: 10pt;}
+	.rowHeaderEN01 { padding:1px; border-bottom:1px solid #CCCCCC; text-align:right; color:#000000; vertical-align:top; font-size: 10pt;}
+	.valueCell { padding:1px; border-bottom:1px solid #CCCCCC; text-align:left; vertical-align:top; font-size: 10pt; background-color: #CAECFD; border-left:3px solid white; border-right:3px solid white;}
+@page{ 
+	size: 8.3in 11.7in;
+	margin: 0.25in;
+	padding: 1em;
+}
+</style> 
+  <title>Interstage XWand WebForm</title>
+ </head> 
+ <!--3312000.html-->    
+ <body> 
+  <p class="titleID01">[3312000] Statement of profit or loss and other comprehensive income, OCI components presented net of tax, by nature - Infrastructure Industry</p> 
+  <div> 
+   <div> 
+    <div> 
+     <table class="table01" style="width:100%;"> 
+      <tbody> 
+       <tr> 
+        <td class="titleID01">Laporan laba rugi dan penghasilan komprehensif lain </td> 
+        <td></td> 
+        <td></td> 
+        <td class="titleEN01" style="text-align:right;">Statement of profit or loss and other comprehensive income</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td></td> 
+        <td class="colHeader01" style="width:20%;"> <span>31 December 2018</span> </td> 
+        <td class="colHeader01" style="width:20%;"> <span>31 December 2017</span> </td> 
+        <td></td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;">Penjualan dan pendapatan usaha</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0462_003_01_10" name="idx-cor:SalesAndRevenue" scale="9" unitref="IDR">
+           130,784 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0462_006_01_10" name="idx-cor:SalesAndRevenue" scale="9" unitref="IDR">
+           128,256 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Sales and revenue</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;">Pendapatan lainnya</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0291_003_01_10" name="idx-cor:OtherIncome" scale="9" unitref="IDR">
+           1,752 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0291_006_01_10" name="idx-cor:OtherIncome" scale="9" unitref="IDR">
+           1,039 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Other income</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;">Beban eksplorasi</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0132_003_01_03" name="idx-cor:ExplorationExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0132_006_01_03" name="idx-cor:ExplorationExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Exploration expenses</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;">Beban pengumpulan tol</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0486_003_01_03" name="idx-cor:TollCollectionExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0486_006_01_03" name="idx-cor:TollCollectionExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Toll collection expenses</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;">Beban pelayanan pemakai jalan tol</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0489_003_01_03" name="idx-cor:TollRoadServiceExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0489_006_01_03" name="idx-cor:TollRoadServiceExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Toll road service expenses</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;">Beban pemeliharaan jalan tol</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0488_003_01_03" name="idx-cor:TollRoadMaintenanceExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0488_006_01_03" name="idx-cor:TollRoadMaintenanceExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Toll road maintenance expenses</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;">Beban kerjasama operasi</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0182_003_01_03" name="idx-cor:JointOperationsExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0182_006_01_03" name="idx-cor:JointOperationsExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Joint operations expenses</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;">Beban konstruksi</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0038_003_01_05" name="idx-cor:ConstructionExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0038_006_01_05" name="idx-cor:ConstructionExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Construction expenses</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;">Beban operasional penerbangan</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0141_003_01_03" name="idx-cor:FlightOperationsExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0141_006_01_03" name="idx-cor:FlightOperationsExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Flight operations expenses</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;">Beban interkoneksi</td> 
+        <td class="valueCell" style="text-align:right;"> ( 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0697_003_01_02" name="idx-cor:InterconnectionExpenses" scale="9" unitref="IDR">
+           4,283 
+         </ix:nonfraction>) </td> 
+        <td class="valueCell" style="text-align:right;"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0697_006_01_02" name="idx-cor:InterconnectionExpenses" scale="9" unitref="IDR">
+           2,987 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Interconnection expenses</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;">Beban tiket, penjualan, dan promosi</td> 
+        <td class="valueCell" style="text-align:right;"> ( 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0485_003_01_03" name="idx-cor:TicketingSalesAndPromotionExpenses" scale="9" unitref="IDR">
+           4,214 
+         </ix:nonfraction>) </td> 
+        <td class="valueCell" style="text-align:right;"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0485_006_01_03" name="idx-cor:TicketingSalesAndPromotionExpenses" scale="9" unitref="IDR">
+           5,268 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Ticketing, sales and promotion expenses</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;">Beban pelayanan penumpang</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0307_003_01_03" name="idx-cor:PassengerServicesExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0307_006_01_03" name="idx-cor:PassengerServicesExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Passenger services expenses</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;">Beban pemakaian bandara</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0504_003_01_03" name="idx-cor:UserChargesAndStationExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0504_006_01_03" name="idx-cor:UserChargesAndStationExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;">User charges and station expenses</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;">Beban pemeliharaan dan perbaikan</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0210_003_01_03" name="idx-cor:MaintenanceAndOverhaulExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0210_006_01_03" name="idx-cor:MaintenanceAndOverhaulExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Maintenance and overhaul expenses</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;">Beban operasional transportasi</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0494_003_01_03" name="idx-cor:TransportationOperationExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0494_006_01_03" name="idx-cor:TransportationOperationExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Transportation operation expenses</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;">Beban operasional jaringan</td> 
+        <td class="valueCell" style="text-align:right;"> ( 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0217_003_01_03" name="idx-cor:NetworkOperationExpenses" scale="9" unitref="IDR">
+           43,791 
+         </ix:nonfraction>) </td> 
+        <td class="valueCell" style="text-align:right;"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0217_006_01_03" name="idx-cor:NetworkOperationExpenses" scale="9" unitref="IDR">
+           36,603 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Network operation expenses</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;">Beban operasional hotel</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0154_003_01_03" name="idx-cor:HotelOperationExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0154_006_01_03" name="idx-cor:HotelOperationExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Hotel operation expenses</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;">Beban manfaat karyawan</td> 
+        <td class="valueCell" style="text-align:right;"> ( 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0124_003_01_05" name="idx-cor:EmployeeBenefitsExpenses" scale="9" unitref="IDR">
+           13,178 
+         </ix:nonfraction>) </td> 
+        <td class="valueCell" style="text-align:right;"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0124_006_01_05" name="idx-cor:EmployeeBenefitsExpenses" scale="9" unitref="IDR">
+           13,529 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Employee benefits expenses</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;">Beban penyusutan dan amortisasi</td> 
+        <td class="valueCell" style="text-align:right;"> ( 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0104_003_01_05" name="idx-cor:DepreciationAndAmortisationExpenses" scale="9" unitref="IDR">
+           21,406 
+         </ix:nonfraction>) </td> 
+        <td class="valueCell" style="text-align:right;"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0104_006_01_05" name="idx-cor:DepreciationAndAmortisationExpenses" scale="9" unitref="IDR">
+           20,446 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Depreciation and amortisation expenses</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;">Pembentukan (pembalikan) kerugian penurunan nilai yang diakui dalam laba rugi</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0003_003_01_05" name="idx-cor:AdditionReversalOfImpairmentLossRecognisedInProfitOrLoss" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0003_006_01_05" name="idx-cor:AdditionReversalOfImpairmentLossRecognisedInProfitOrLoss" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Addition (reversal) of impairment loss recognised in profit or loss</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;">Beban lainnya</td> 
+        <td class="valueCell" style="text-align:right;"> ( 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0288_003_01_10" name="idx-cor:OtherExpenses" scale="9" unitref="IDR">
+           6,887 
+         </ix:nonfraction>) </td> 
+        <td class="valueCell" style="text-align:right;"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0288_006_01_10" name="idx-cor:OtherExpenses" scale="9" unitref="IDR">
+           6,580 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Other expenses</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;">Keuntungan (kerugian) lainnya</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0290_003_01_10" name="idx-cor:OtherGainsLosses" scale="9" unitref="IDR">
+           68 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0290_006_01_10" name="idx-cor:OtherGainsLosses" scale="9" unitref="IDR">
+           51 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Other gains (losses)</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;">Pendapatan keuangan</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0135_003_01_10" name="idx-cor:FinanceIncome" scale="9" unitref="IDR">
+           1,014 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0135_006_01_10" name="idx-cor:FinanceIncome" scale="9" unitref="IDR">
+           1,434 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Finance income</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;">Beban keuangan</td> 
+        <td class="valueCell" style="text-align:right;"> ( 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0134_003_01_10" name="idx-cor:FinanceCosts" scale="9" unitref="IDR">
+           3,507 
+         </ix:nonfraction>) </td> 
+        <td class="valueCell" style="text-align:right;"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0134_006_01_10" name="idx-cor:FinanceCosts" scale="9" unitref="IDR">
+           2,769 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Finance costs</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;">Bagian atas laba (rugi) entitas asosiasi yang dicatat dengan menggunakan metode ekuitas</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0471_003_01_10" name="idx-cor:ShareOfProfitLossOfAssociatesAccountedForUsingEquityMethod" scale="9" unitref="IDR">
+           53 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0471_006_01_10" name="idx-cor:ShareOfProfitLossOfAssociatesAccountedForUsingEquityMethod" scale="9" unitref="IDR">
+           61 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Share of profit (loss) of associates accounted for using equity method</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;">Bagian atas laba (rugi) entitas ventura bersama yang dicatat menggunakan metode ekuitas</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0472_003_01_10" name="idx-cor:ShareOfProfitLossOfJointVenturesAccountedForUsingEquityMethod" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0472_006_01_10" name="idx-cor:ShareOfProfitLossOfJointVenturesAccountedForUsingEquityMethod" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Share of profit (loss) of joint ventures accounted for using equity method</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;">Jumlah laba (rugi) sebelum pajak penghasilan</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0422_003_01_10" name="idx-cor:ProfitLossBeforeIncomeTax" scale="9" unitref="IDR">
+           36,405 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0422_006_01_10" name="idx-cor:ProfitLossBeforeIncomeTax" scale="9" unitref="IDR">
+           42,659 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Total profit (loss) before tax</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;">Pendapatan (beban) pajak</td> 
+        <td class="valueCell" style="text-align:right;"> ( 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0482_003_01_10" name="idx-cor:TaxBenefitExpenses" scale="9" sign="-" unitref="IDR">
+           9,426 
+         </ix:nonfraction>) </td> 
+        <td class="valueCell" style="text-align:right;"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0482_006_01_10" name="idx-cor:TaxBenefitExpenses" scale="9" sign="-" unitref="IDR">
+           9,958 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Tax benefit (expenses)</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;">Jumlah laba (rugi) dari operasi yang dilanjutkan</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0423_003_01_10" name="idx-cor:ProfitLossFromContinuingOperations" scale="9" unitref="IDR">
+           26,979 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0423_006_01_10" name="idx-cor:ProfitLossFromContinuingOperations" scale="9" unitref="IDR">
+           32,701 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Total profit (loss) from continuing operations</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;">Laba (rugi) dari operasi yang dihentikan</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0424_003_01_10" name="idx-cor:ProfitLossFromDiscontinuedOperations" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0424_006_01_10" name="idx-cor:ProfitLossFromDiscontinuedOperations" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Profit (loss) from discontinued operations</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;">Jumlah laba (rugi)</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0419_003_01_10" name="idx-cor:ProfitLoss" scale="9" unitref="IDR">
+           26,979 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0419_006_01_10" name="idx-cor:ProfitLoss" scale="9" unitref="IDR">
+           32,701 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Total profit (loss)</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;;font-weight:bold;">Pendapatan komprehensif lainnya, setelah pajak </td> 
+        <td class="valueCell" style="text-align:right;"></td> 
+        <td class="valueCell" style="text-align:right;"></td> 
+        <td class="rowHeaderEN01" style="width:30%;;font-weight:bold;">Other comprehensive income, after tax </td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:1.5em">Pendapatan komprehensif lainnya yang tidak akan direklasifikasi ke laba rugi, setelah pajak </td> 
+        <td class="valueCell" style="text-align:right;"></td> 
+        <td class="valueCell" style="text-align:right;"></td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:1.5em">Other comprehensive income that will not be reclassified to profit or loss, after tax </td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:3.0em">Pendapatan komprehensif lainnya atas keuntungan (kerugian) hasil revaluasi aset tetap, setelah pajak</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0765_003_01_04" name="idx-cor:OtherComprehensiveIncomeForGainsLossesOnRevaluationOfPropertyAndEquipmentAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0765_006_01_04" name="idx-cor:OtherComprehensiveIncomeForGainsLossesOnRevaluationOfPropertyAndEquipmentAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:3.0em">Other comprehensive income for gains (losses) on revaluation of property and equipment, after tax</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:3.0em">Pendapatan komprehensif lainnya atas pengukuran kembali kewajiban manfaat pasti, setelah pajak</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0274_003_01_06" name="idx-cor:OtherComprehensiveIncomeForRemeasurementOfDefinedBenefitObligationAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0274_006_01_06" name="idx-cor:OtherComprehensiveIncomeForRemeasurementOfDefinedBenefitObligationAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:3.0em">Other comprehensive income for remeasurement of defined benefit obligation, after tax</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:3.0em">Penyesuaian lainnya atas pendapatan komprehensif lainnya yang tidak akan direklasifikasi ke laba rugi, setelah pajak</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0259_003_01_06" name="idx-cor:OtherAdjustmentsToOtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0259_006_01_06" name="idx-cor:OtherAdjustmentsToOtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:3.0em">Other adjustments to other comprehensive income that will not be reclassified to profit or loss, after tax</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:3.0em">Jumlah pendapatan komprehensif lainnya yang tidak akan direklasifikasi ke laba rugi, setelah pajak</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0278_003_01_06" name="idx-cor:OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0278_006_01_06" name="idx-cor:OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:3.0em">Total other comprehensive income that will not be reclassified to profit or loss, after tax</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:1.5em;font-weight:bold;">Pendapatan komprehensif lainnya yang akan direklasifikasi ke laba rugi, setelah pajak </td> 
+        <td class="valueCell" style="text-align:right;"></td> 
+        <td class="valueCell" style="text-align:right;"></td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:1.5em;font-weight:bold;">Other comprehensive income that may be reclassified to profit or loss, after tax </td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:3.0em">Keuntungan (kerugian) selisih kurs penjabaran, setelah pajak</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0147_003_01_06" name="idx-cor:GainsLossesOnExchangeDifferencesOnTranslationAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0147_006_01_06" name="idx-cor:GainsLossesOnExchangeDifferencesOnTranslationAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:3.0em">Gains (losses) on exchange differences on translation, after tax</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:3.0em">Penyesuaian reklasifikasi selisih kurs penjabaran, setelah pajak</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0451_003_01_06" name="idx-cor:ReclassificationAdjustmentsOnExchangeDifferencesOnTranslationAfterTax" scale="9" sign="-" unitref="IDR">
+           4,942 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0451_006_01_06" name="idx-cor:ReclassificationAdjustmentsOnExchangeDifferencesOnTranslationAfterTax" scale="9" unitref="IDR">
+           2,332 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:3.0em">Reclassification adjustments on exchange differences on translation, after tax</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:3.0em">Keuntungan (kerugian) yang belum direalisasi atas perubahan nilai wajar aset keuangan yang tersedia untuk dijual, setelah pajak</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0501_003_01_06" name="idx-cor:UnrealisedGainsLossesOnChangesInFairValueOfAvailableForSaleFinancialAssetsAfterTax" scale="9" unitref="IDR">
+           0 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0501_006_01_06" name="idx-cor:UnrealisedGainsLossesOnChangesInFairValueOfAvailableForSaleFinancialAssetsAfterTax" scale="9" unitref="IDR">
+           0 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:3.0em">Unrealised gains (losses) on changes in fair value of available-for-sale financial assets, after tax</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:3.0em">Penyesuaian reklasifikasi atas aset keuangan tersedia untuk dijual, setelah pajak</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0447_003_01_06" name="idx-cor:ReclassificationAdjustmentsOnAvailableForSaleFinancialAssetsAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0447_006_01_06" name="idx-cor:ReclassificationAdjustmentsOnAvailableForSaleFinancialAssetsAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:3.0em">Reclassification adjustments on available-for-sale financial assets, after tax</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:3.0em">Keuntungan (kerugian) lindung nilai arus kas, setelah pajak</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0143_003_01_06" name="idx-cor:GainsLossesOnCashFlowHedgesAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0143_006_01_06" name="idx-cor:GainsLossesOnCashFlowHedgesAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:3.0em">Gains (losses) on cash flow hedges, after tax</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:3.0em">Penyesuaian reklasifikasi atas lindung nilai arus kas, setelah pajak</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0449_003_01_06" name="idx-cor:ReclassificationAdjustmentsOnCashFlowHedgesAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0449_006_01_06" name="idx-cor:ReclassificationAdjustmentsOnCashFlowHedgesAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:3.0em">Reclassification adjustments on cash flow hedges, after tax</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:3.0em">Nilai tercatat dari aset (liabilitas) non-keuangan yang perolehan atau keterjadiannya merupakan suatu prakiraan transaksi yang kemungkinan besar terjadi yang dilindung nilai, setelah pajak</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0020_003_01_06" name="idx-cor:CarryingAmountOfNonFinancialAssetLiabilityWhoseAcquisitionOrIncurrenceWasHedgedOnHighlyProbableForecastTransactionAdjustedFromEquityAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0020_006_01_06" name="idx-cor:CarryingAmountOfNonFinancialAssetLiabilityWhoseAcquisitionOrIncurrenceWasHedgedOnHighlyProbableForecastTransactionAdjustedFromEquityAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:3.0em">Carrying amount of non-financial asset (liability) whose acquisition or incurrence was hedged on highly probable forecast transaction, adjusted from equity, after tax</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:3.0em">Keuntungan (kerugian) lindung nilai investasi bersih kegiatan usaha luar negeri, setelah pajak</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0149_003_01_06" name="idx-cor:GainsLossesOnHedgesOfNetInvestmentsInForeignOperationsAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0149_006_01_06" name="idx-cor:GainsLossesOnHedgesOfNetInvestmentsInForeignOperationsAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:3.0em">Gains (losses) on hedges of net investments in foreign operations, after tax</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:3.0em">Penyesuaian reklasifikasi atas lindung nilai investasi bersih kegiatan usaha luar negeri, setelah pajak</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0453_003_01_06" name="idx-cor:ReclassificationAdjustmentsOnHedgesOfNetInvestmentsInForeignOperationsAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0453_006_01_06" name="idx-cor:ReclassificationAdjustmentsOnHedgesOfNetInvestmentsInForeignOperationsAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:3.0em">Reclassification adjustments on hedges of net investments in foreign operations, after tax</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:3.0em">Bagian pendapatan komprehensif lainnya dari entitas asosiasi yang dicatat dengan menggunakan metode ekuitas, setelah pajak</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0467_003_01_06" name="idx-cor:ShareOfOtherComprehensiveIncomeOfAssociatesAccountedForUsingEquityMethodAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0467_006_01_06" name="idx-cor:ShareOfOtherComprehensiveIncomeOfAssociatesAccountedForUsingEquityMethodAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:3.0em">Share of other comprehensive income of associates accounted for using equity method, after tax</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:3.0em">Bagian pendapatan komprehensif lainnya dari entitas ventura bersama yang dicatat dengan menggunakan metode ekuitas, setelah pajak</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0469_003_01_06" name="idx-cor:ShareOfOtherComprehensiveIncomeOfJointVenturesAccountedForUsingEquityMethodAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0469_006_01_06" name="idx-cor:ShareOfOtherComprehensiveIncomeOfJointVenturesAccountedForUsingEquityMethodAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:3.0em">Share of other comprehensive income of joint ventures accounted for using equity method, after tax</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:3.0em">Penyesuaian lainnya atas pendapatan komprehensif lainnya yang akan direklasifikasi ke laba rugi, setelah pajak</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0257_003_01_06" name="idx-cor:OtherAdjustmentsToOtherComprehensiveIncomeThatMayBeReclassifiedToProfitOrLossAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0257_006_01_06" name="idx-cor:OtherAdjustmentsToOtherComprehensiveIncomeThatMayBeReclassifiedToProfitOrLossAfterTax" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:3.0em">Other adjustments to other comprehensive income that may be reclassified to profit or loss, after tax</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:3.0em">Jumlah pendapatan komprehensif lainnya yang akan direklasifikasi ke laba rugi, setelah pajak</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0276_003_01_06" name="idx-cor:OtherComprehensiveIncomeThatMayBeReclassifiedToProfitOrLossAfterTax" scale="9" unitref="IDR">
+           4,942 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0276_006_01_06" name="idx-cor:OtherComprehensiveIncomeThatMayBeReclassifiedToProfitOrLossAfterTax" scale="9" sign="-" unitref="IDR">
+           2,332 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:3.0em">Total other comprehensive income that may be reclassified to profit or loss, after tax</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:1.5em">Jumlah pendapatan komprehensif lainnya, setelah pajak</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0270_003_01_10" name="idx-cor:OtherComprehensiveIncomeAfterTax" scale="9" unitref="IDR">
+           4,942 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0270_006_01_10" name="idx-cor:OtherComprehensiveIncomeAfterTax" scale="9" sign="-" unitref="IDR">
+           2,332 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:1.5em">Total other comprehensive income, after tax</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;">Jumlah laba rugi komprehensif</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0035_003_01_10" name="idx-cor:ComprehensiveIncome" scale="9" unitref="IDR">
+           31,921 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0035_006_01_10" name="idx-cor:ComprehensiveIncome" scale="9" unitref="IDR">
+           30,369 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderEN01" style="width:30%;">Total comprehensive income</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;;font-weight:bold;">Laba (rugi) yang dapat diatribusikan </td> 
+        <td class="valueCell" style="text-align:right;"></td> 
+        <td class="valueCell" style="text-align:right;"></td> 
+        <td class="rowHeaderEN01" style="width:30%;;font-weight:bold;">Profit (loss) attributable to </td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:1.5em">Laba (rugi) yang dapat diatribusikan ke entitas induk</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0421_003_01_10" name="idx-cor:ProfitLossAttributableToParentEntity" scale="9" unitref="IDR">
+           18,032 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0421_006_01_10" name="idx-cor:ProfitLossAttributableToParentEntity" scale="9" unitref="IDR">
+           22,145 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:1.5em">Profit (loss) attributable to parent entity</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:1.5em">Laba (rugi) yang dapat diatribusikan ke kepentingan non-pengendali</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0420_003_01_10" name="idx-cor:ProfitLossAttributableToNonControllingInterests" scale="9" unitref="IDR">
+           8,947 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0420_006_01_10" name="idx-cor:ProfitLossAttributableToNonControllingInterests" scale="9" unitref="IDR">
+           10,556 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:1.5em">Profit (loss) attributable to non-controlling interests</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;;font-weight:bold;">Laba rugi komprehensif yang dapat diatribusikan </td> 
+        <td class="valueCell" style="text-align:right;"></td> 
+        <td class="valueCell" style="text-align:right;"></td> 
+        <td class="rowHeaderEN01" style="width:30%;;font-weight:bold;">Comprehensive income attributable to </td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:1.5em">Laba rugi komprehensif yang dapat diatribusikan ke entitas induk</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0037_003_01_10" name="idx-cor:ComprehensiveIncomeAttributableToParentEntity" scale="9" unitref="IDR">
+           22,844 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0037_006_01_10" name="idx-cor:ComprehensiveIncomeAttributableToParentEntity" scale="9" unitref="IDR">
+           19,952 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:1.5em">Comprehensive income attributable to parent entity</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:1.5em">Laba rugi komprehensif yang dapat diatribusikan ke kepentingan non-pengendali</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0036_003_01_10" name="idx-cor:ComprehensiveIncomeAttributableToNonControllingInterests" scale="9" unitref="IDR">
+           9,077 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-9" format="ixt:numcommadot" id="IX02_0036_006_01_10" name="idx-cor:ComprehensiveIncomeAttributableToNonControllingInterests" scale="9" unitref="IDR">
+           10,417 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:1.5em">Comprehensive income attributable to non-controlling interests</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;;font-weight:bold;">Laba (rugi) per saham </td> 
+        <td class="valueCell" style="text-align:right;"></td> 
+        <td class="valueCell" style="text-align:right;"></td> 
+        <td class="rowHeaderEN01" style="width:30%;;font-weight:bold;">Earnings (loss) per share </td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:1.5em;font-weight:bold;">Laba per saham dasar diatribusikan kepada pemilik entitas induk </td> 
+        <td class="valueCell" style="text-align:right;"></td> 
+        <td class="valueCell" style="text-align:right;"></td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:1.5em;font-weight:bold;">Basic earnings per share attributable to equity owners of the parent entity </td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:3.0em">Laba (rugi) per saham dasar dari operasi yang dilanjutkan</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="2" format="ixt:numcommadot" id="IX02_0017_003_02_10" name="idx-cor:BasicEarningsLossPerShareFromContinuingOperations" scale="0" unitref="IDRPerShares">
+           182.03 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="2" format="ixt:numcommadot" id="IX02_0017_006_02_10" name="idx-cor:BasicEarningsLossPerShareFromContinuingOperations" scale="0" unitref="IDRPerShares">
+           223.55 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:3.0em">Basic earnings (loss) per share from continuing operations</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:3.0em">Laba (rugi) per saham dasar dari operasi yang dihentikan</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0018_003_02_10" name="idx-cor:BasicEarningsLossPerShareFromDiscontinuedOperations" unitref="IDRPerShares" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0018_006_02_10" name="idx-cor:BasicEarningsLossPerShareFromDiscontinuedOperations" unitref="IDRPerShares" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:3.0em">Basic earnings (loss) per share from discontinued operations</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:1.5em">Laba (rugi) per saham dilusian </td> 
+        <td class="valueCell" style="text-align:right;"></td> 
+        <td class="valueCell" style="text-align:right;"></td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:1.5em">Diluted earnings (loss) per share </td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:3.0em">Laba (rugi) per saham dilusian dari operasi yang dilanjutkan</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0107_003_02_10" name="idx-cor:DilutedEarningsLossPerShareFromContinuingOperations" unitref="IDRPerShares" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0107_006_02_10" name="idx-cor:DilutedEarningsLossPerShareFromContinuingOperations" unitref="IDRPerShares" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:3.0em">Diluted earnings (loss) per share from continuing operations</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderID01" style="width:30%;;padding-left:3.0em">Laba (rugi) per saham dilusian dari operasi yang dihentikan</td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0108_003_02_10" name="idx-cor:DilutedEarningsLossPerShareFromDiscontinuedOperations" unitref="IDRPerShares" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0108_006_02_10" name="idx-cor:DilutedEarningsLossPerShareFromDiscontinuedOperations" unitref="IDRPerShares" xsi:nil="true" /> </td> 
+        <td class="rowHeaderEN01" style="width:30%;;padding-right:3.0em">Diluted earnings (loss) per share from discontinued operations</td> 
+        <td></td> 
+        <td></td> 
+       </tr> 
+      </tbody> 
+     </table> 
+    </div> 
+   </div> 
+  </div>  
+ </body>
+</html>

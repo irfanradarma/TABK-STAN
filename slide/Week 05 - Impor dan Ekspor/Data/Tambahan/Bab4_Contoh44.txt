@@ -1,0 +1,525 @@
+Account Code: 1111000000   Name: Obligatory Deposit               Type: BALANCE SHEET
+Account Code: 1112010020   Name: T/D (IDR) BOT Jakarta            Type: BALANCE SHEET
+Account Code: 1112010050   Name: T/D (IDR) DPB Jakarta            Type: BALANCE SHEET
+Account Code: 1112010060   Name: T/D (IDR) BSS Jakarta            Type: BALANCE SHEET
+Account Code: 1112010120   Name: T/D (IDR) BNI 46 Jakarta         Type: BALANCE SHEET
+Account Code: 1112010150   Name: T/D (IDR) BII Jakarata           Type: BALANCE SHEET
+Account Code: 1112010190   Name: T/D (IDR) Daichi  Jakarta        Type: BALANCE SHEET
+Account Code: 1112010200   Name: T/D (IDR) BCA Jakarta            Type: BALANCE SHEET
+Account Code: 1112010210   Name: T/D (IDR) Sanwa Jakarta          Type: BALANCE SHEET
+Account Code: 1112010250   Name: T/D (IDR) Sumitomo N Jakarta     Type: BALANCE SHEET
+Account Code: 1112010260   Name: T/D (IDR) SUMITOMO MITSUI JKT    Type: BALANCE SHEET
+Account Code: 1112010270   Name: T/D (IDR) UFJ INDONESIA BANK     Type: BALANCE SHEET
+Account Code: 1112020020   Name: T/D (USD) BOT Jakarta            Type: BALANCE SHEET
+Account Code: 1112020030   Name: T/D (USD) DPB Jakarta            Type: BALANCE SHEET
+Account Code: 1112020040   Name: T/D (USD) IBJ Jakarta            Type: BALANCE SHEET
+Account Code: 1112020050   Name: T/D (USD) Tokay Lippo Jakarta    Type: BALANCE SHEET
+Account Code: 1112020060   Name: T/D (USD) Sanwa Bank  Jakarta    Type: BALANCE SHEET
+Account Code: 1112020090   Name: T/D (USD) BSS Jakarta            Type: BALANCE SHEET
+Account Code: 1112020100   Name: T/D (USD) Daichi K Jakarta       Type: BALANCE SHEET
+Account Code: 1112020140   Name: T/D (USD) BII Jakarta            Type: BALANCE SHEET
+Account Code: 1112020160   Name: T/D (USD) BNI Jakarta            Type: BALANCE SHEET
+Account Code: 1112020210   Name: T/D (USD) Citibank Jakarta       Type: BALANCE SHEET
+Account Code: 1112020220   Name: T/D (USD) Sumitomo N Jakarta     Type: BALANCE SHEET
+Account Code: 1112020230   Name: T/D (USD) Deutche Bank Jakarta   Type: BALANCE SHEET
+Account Code: 1112020240   Name: T/D (USD) Standard Ch. Jakarta   Type: BALANCE SHEET
+Account Code: 1112020250   Name: T/D (USD) Hongkong Bank Jkt      Type: BALANCE SHEET
+Account Code: 1112020260   Name: T/D (USD) Bank of America Jkt    Type: BALANCE SHEET
+Account Code: 1112020270   Name: T/D (USD) ABN Amro Bank   Jkt    Type: BALANCE SHEET
+Account Code: 1112020280   Name: T/D (USD) American Expres Jkt    Type: BALANCE SHEET
+Account Code: 1112020300   Name: T/D (USD) ANZ Panin Jakarta      Type: BALANCE SHEET
+Account Code: 1112020310   Name: T/D (USD) Credit Lyonnais Jkt    Type: BALANCE SHEET
+Account Code: 1112020320   Name: T/D (USD) SUMITOMO MITSUI JKT    Type: BALANCE SHEET
+Account Code: 1112020330   Name: T/D (USD) UFJ INDONESIA BANK     Type: BALANCE SHEET
+Account Code: 1112020340   Name: T/D.(USD) PT.BANK MIZUHO IND.    Type: BALANCE SHEET
+Account Code: 1112030010   Name: T/D (JPY) BOT Jakarta            Type: BALANCE SHEET
+Account Code: 1112030070   Name: T/D (JPY) DPB  Jakarta           Type: BALANCE SHEET
+Account Code: 1112030080   Name: T/D (JPY) Danamon Jakarta        Type: BALANCE SHEET
+Account Code: 1112030090   Name: T/D (JPY) BSS Jakarta            Type: BALANCE SHEET
+Account Code: 1112030150   Name: T/D (JPY) SUMITOMO MITSUI JKT    Type: BALANCE SHEET
+Account Code: 1142000000   Name: SBYTUD - STOCK                   Type: BALANCE SHEET
+Account Code: 1210101000   Name: Petty Cash (IDR) Jakarta         Type: BALANCE SHEET
+Account Code: 1210102000   Name: Petty Cash (IDR) Medan           Type: BALANCE SHEET
+Account Code: 1210103000   Name: Petty Cash (IDR) Surabaya        Type: BALANCE SHEET
+Account Code: 1210104000   Name: Petty Cash (IDR) Bandung         Type: BALANCE SHEET
+Account Code: 1210105000   Name: Petty Cash (IDR) Batam           Type: BALANCE SHEET
+Account Code: 1220010100   Name: (IDR) BANK MANDIRI Jakarta       Type: BALANCE SHEET
+Account Code: 1220010200   Name: (IDR) BANK MANDIRI Medan         Type: BALANCE SHEET
+Account Code: 1220010300   Name: (IDR) BANK MANDIRI Medan-Rep.    Type: BALANCE SHEET
+Account Code: 1220010400   Name: (IDR) BOT Jakarta                Type: BALANCE SHEET
+Account Code: 1220010500   Name: (IDR) BOT Surabaya               Type: BALANCE SHEET
+Account Code: 1220010600   Name: (IDR) BOT Bandung                Type: BALANCE SHEET
+Account Code: 1220010900   Name: (IDR) DPB Jakarta                Type: BALANCE SHEET
+Account Code: 1220011000   Name: (IDR) DPB Surabaya               Type: BALANCE SHEET
+Account Code: 1220011100   Name: (IDR) DPB Bandung                Type: BALANCE SHEET
+Account Code: 1220011200   Name: (IDR) BSS Jakarta                Type: BALANCE SHEET
+Account Code: 1220011300   Name: (IDR) Sanwa Bank Jakarta         Type: BALANCE SHEET
+Account Code: 1220011400   Name: (IDR) Sanwa Bank Surabaya        Type: BALANCE SHEET
+Account Code: 1220011500   Name: (IDR) Fuji Bank Jakarta          Type: BALANCE SHEET
+Account Code: 1220011600   Name: (IDR) DPB Bandung Repr.          Type: BALANCE SHEET
+Account Code: 1220011700   Name: (IDR) DPB Surabaya Repr.         Type: BALANCE SHEET
+Account Code: 1220011800   Name: (IDR) Hongkong Bank Batam Repr   Type: BALANCE SHEET
+Account Code: 1220011900   Name: (IDR) Hongkong Bank Batam        Type: BALANCE SHEET
+Account Code: 1220012000   Name: (IDR) BII Jakarta                Type: BALANCE SHEET
+Account Code: 1220012100   Name: (IDR) Citibank Jakarta           Type: BALANCE SHEET
+Account Code: 1220012200   Name: (IDR) SUMITOMO MITSUI JKT        Type: BALANCE SHEET
+Account Code: 1220012300   Name: (IDR)Mandiri Batam-Repr.         Type: BALANCE SHEET
+Account Code: 1220012400   Name: (IDR) UFJ Indonesia Bank         Type: BALANCE SHEET
+Account Code: 1220012500   Name: (IDR) UFJ Ind.Bank-Surabaya      Type: BALANCE SHEET
+Account Code: 1220020100   Name: (USD) BANK MANDIRI Jakarta       Type: BALANCE SHEET
+Account Code: 1220020200   Name: (USD) BOT Jakarta                Type: BALANCE SHEET
+Account Code: 1220020400   Name: (USD) DPB Jakarta                Type: BALANCE SHEET
+Account Code: 1220020500   Name: (USD) IBJ Jakarta                Type: BALANCE SHEET
+Account Code: 1220020600   Name: (USD) Tokay Lippo Bank Jkt       Type: BALANCE SHEET
+Account Code: 1220020700   Name: (USD) BSS Jakarta                Type: BALANCE SHEET
+Account Code: 1220020800   Name: (USD) Hongkong Bank Batam        Type: BALANCE SHEET
+Account Code: 1220020900   Name: (USD) BII Jakarta                Type: BALANCE SHEET
+Account Code: 1220021000   Name: (USD) SUMITOMO MITSUI JKT        Type: BALANCE SHEET
+Account Code: 1220021100   Name: (USD) UFJ INDONESIA BANK         Type: BALANCE SHEET
+Account Code: 1220030100   Name: (JPY) BANK MANDIRI Jakarta       Type: BALANCE SHEET
+Account Code: 1220030200   Name: (JPY) BOT Jakarta                Type: BALANCE SHEET
+Account Code: 1220030300   Name: (JPY) BOT EIGYOBU                Type: BALANCE SHEET
+Account Code: 1220030500   Name: (JPY) DPB Jakarta                Type: BALANCE SHEET
+Account Code: 1220030700   Name: (JPY) BSS Jakarta                Type: BALANCE SHEET
+Account Code: 1220030800   Name: (JPY) SUMITOMO MITSUI JKT        Type: BALANCE SHEET
+Account Code: 1230010000   Name: GIRO POS-Stock of Stamp Duty     Type: BALANCE SHEET
+Account Code: 1240010000   Name: Deposit Cash Transit (IDR)       Type: BALANCE SHEET
+Account Code: 1240020000   Name: Deposit Cash Transit (JPY)       Type: BALANCE SHEET
+Account Code: 1240030000   Name: Deposit Cash Transit (USD)       Type: BALANCE SHEET
+Account Code: 1241010000   Name: Postdated Check & Giro (IDR)     Type: BALANCE SHEET
+Account Code: 1241020000   Name: Postdated Chech & Giro (JPY)     Type: BALANCE SHEET
+Account Code: 1241030000   Name: Postdated Check & Giro (USD)     Type: BALANCE SHEET
+Account Code: 1331000000   Name: DIRECT PREMIUM RECEIVABLE        Type: BALANCE SHEET
+Account Code: 1332000000   Name: DIRECT RECEIVABLE-Inward Coins   Type: BALANCE SHEET
+Account Code: 1333000000   Name: DIRECT RECEIVABLE-Outward coin   Type: BALANCE SHEET
+Account Code: 1431000000   Name: Fac.(I) Receiv.-SESSION          Type: BALANCE SHEET
+Account Code: 1441001000   Name: T/I Prem Sun Alliance            Type: BALANCE SHEET
+Account Code: 1441001100   Name: T/I Clm  Sun Alliance            Type: BALANCE SHEET
+Account Code: 1441002000   Name: T/I Prem Astra Buana             Type: BALANCE SHEET
+Account Code: 1441002100   Name: T/I Clm  Astra Buana             Type: BALANCE SHEET
+Account Code: 1441003000   Name: T/I Prem Taisho Singapore        Type: BALANCE SHEET
+Account Code: 1441003100   Name: T/I Clm  Taisho Singapore        Type: BALANCE SHEET
+Account Code: 1441004000   Name: T/I Prem Taisho Malaysia         Type: BALANCE SHEET
+Account Code: 1441004100   Name: T/I Clm  Taisho Malaysia         Type: BALANCE SHEET
+Account Code: 1441005000   Name: T/I Prem Tugu Pratama            Type: BALANCE SHEET
+Account Code: 1441005100   Name: T/I Clm  Tugu Pratama            Type: BALANCE SHEET
+Account Code: 1441006000   Name: T/I Prem KARK                    Type: BALANCE SHEET
+Account Code: 1441006100   Name: T/I Clm  KARK                    Type: BALANCE SHEET
+Account Code: 1441007000   Name: T/I Prem Maskapai Asuransi Ind   Type: BALANCE SHEET
+Account Code: 1441007100   Name: T/I Clm  Maskapai Asuransi Ind   Type: BALANCE SHEET
+Account Code: 1441008000   Name: T/I Prem Wahana Tata             Type: BALANCE SHEET
+Account Code: 1441008100   Name: T/I Clm  Wahana Tata             Type: BALANCE SHEET
+Account Code: 1441009000   Name: T/I Prem Tripakarta              Type: BALANCE SHEET
+Account Code: 1441009100   Name: T/I Clm Tripakarta               Type: BALANCE SHEET
+Account Code: 1441010000   Name: T/I Prem Raksa Pratikar          Type: BALANCE SHEET
+Account Code: 1441010100   Name: T/I Clm Raksa Pratikar           Type: BALANCE SHEET
+Account Code: 1442002000   Name: T/I Prem REINDO                  Type: BALANCE SHEET
+Account Code: 1442002100   Name: T/I Clm  REINDO                  Type: BALANCE SHEET
+Account Code: 1461001000   Name: Fac.Clm.Recov.R0004001/6 MMFHO   Type: BALANCE SHEET
+Account Code: 1461002000   Name: Fac.Clm.Recov.R0004002 S'pore    Type: BALANCE SHEET
+Account Code: 1461004000   Name: Fac.Clm.Recov.- Others           Type: BALANCE SHEET
+Account Code: 1461005000   Name: Fac.Clm.Recov.- MAI87            Type: BALANCE SHEET
+Account Code: 1461006000   Name: Fac.Clm.Recov.R0400068 WHNTATA   Type: BALANCE SHEET
+Account Code: 1470000000   Name: XOL Claim Receivable             Type: BALANCE SHEET
+Account Code: 1480000000   Name: PREPAID CLAIM/CASH LOSS RECEIV   Type: BALANCE SHEET
+Account Code: 1511000000   Name: INTEREST RECEIV-Obligatory Dep   Type: BALANCE SHEET
+Account Code: 1512000000   Name: INTEREST RECEIV-Time Deposit     Type: BALANCE SHEET
+Account Code: 1530000000   Name: DIVIDEND (RECEIVABLE)            Type: BALANCE SHEET
+Account Code: 1612000000   Name: EMPL.LOAN - without interest     Type: BALANCE SHEET
+Account Code: 1690010000   Name: Other Receivable                 Type: BALANCE SHEET
+Account Code: 1690030000   Name: Other Rec.-WHT Brokerage         Type: BALANCE SHEET
+Account Code: 1711010000   Name: Prepaid House Rent               Type: BALANCE SHEET
+Account Code: 1711020000   Name: Prepaid Office Rent              Type: BALANCE SHEET
+Account Code: 1713000000   Name: Prepayment-Stock of Souvenir     Type: BALANCE SHEET
+Account Code: 1719000000   Name: Prepayment Other                 Type: BALANCE SHEET
+Account Code: 1721000000   Name: PREPAID-Business Travelling      Type: BALANCE SHEET
+Account Code: 1732000000   Name: Prepayment Corporation Tax       Type: BALANCE SHEET
+Account Code: 1811100000   Name: Land                             Type: BALANCE SHEET
+Account Code: 1812100000   Name: HOUSE - Land                     Type: BALANCE SHEET
+Account Code: 1812200000   Name: HOUSE - Building                 Type: BALANCE SHEET
+Account Code: 1813010000   Name: Computer Lisence - Cost          Type: BALANCE SHEET
+Account Code: 1813100000   Name: Computer                         Type: BALANCE SHEET
+Account Code: 1813200000   Name: Office Eq.-Non Computer          Type: BALANCE SHEET
+Account Code: 1814100000   Name: Office Furniture                 Type: BALANCE SHEET
+Account Code: 1814200000   Name: House  Furniture                 Type: BALANCE SHEET
+Account Code: 1815000000   Name: MOTOR CAR                        Type: BALANCE SHEET
+Account Code: 1816000000   Name: LEASE HOLD IMPROVEMENT           Type: BALANCE SHEET
+Account Code: 1822000000   Name: Accum.depr. House Building       Type: BALANCE SHEET
+Account Code: 1823100000   Name: Accum.depr.Computer              Type: BALANCE SHEET
+Account Code: 1823200000   Name: Accum.depr.OE non computer       Type: BALANCE SHEET
+Account Code: 1824100000   Name: Accum.depr.Office Furniture      Type: BALANCE SHEET
+Account Code: 1824200000   Name: Accum.depr.House  Furniture      Type: BALANCE SHEET
+Account Code: 1825000000   Name: Accum.depr.Motor Car             Type: BALANCE SHEET
+Account Code: 1826000000   Name: Accum.depr.Leasehold Improvmnt   Type: BALANCE SHEET
+Account Code: 1913010000   Name: Computer Liscence                Type: BALANCE SHEET
+Account Code: 1913020000   Name: Accum.Amotr.Computer Lisence     Type: BALANCE SHEET
+Account Code: 1930000000   Name: Security Deposit                 Type: BALANCE SHEET
+Account Code: 1930100000   Name: Deposit - SOS Int'l              Type: BALANCE SHEET
+Account Code: 1942000000   Name: DP - Stock Order                 Type: BALANCE SHEET
+Account Code: 1943000000   Name: DP - Fixed Asset                 Type: BALANCE SHEET
+Account Code: 1950000000   Name: Stock of Stationary              Type: BALANCE SHEET
+Account Code: 1990010000   Name: Membership                       Type: BALANCE SHEET
+Account Code: 1990020000   Name: Deferred Tax Asset               Type: BALANCE SHEET
+Account Code: 1990030000   Name: GIRO POS-Stock of Stamp Duty     Type: BALANCE SHEET
+Account Code: 3230000000   Name: O/S Loss Reserved                Type: BALANCE SHEET
+Account Code: 3371000000   Name: Direct Claim Payable             Type: BALANCE SHEET
+Account Code: 3372000000   Name: Co-outward claim recoverable     Type: BALANCE SHEET
+Account Code: 3373000000   Name: Co-inward  claim payable         Type: BALANCE SHEET
+Account Code: 3500000000   Name: Co-insurance Premium Payable     Type: BALANCE SHEET
+Account Code: 4231001000   Name: Fac.Prm.Pay-R0004001/6 MMFHO     Type: BALANCE SHEET
+Account Code: 4231002000   Name: Fac.Prm.Pay-R0004002 SINGAPORE   Type: BALANCE SHEET
+Account Code: 4231004000   Name: Fac.Prm.Pay-Others               Type: BALANCE SHEET
+Account Code: 4231005000   Name: Fac.Prm.Pay-MAI87                Type: BALANCE SHEET
+Account Code: 4231006000   Name: Fac.Prm.Pay-R0400068 WHNTATA     Type: BALANCE SHEET
+Account Code: 4241000000   Name: T/O PAYABLE - SESSION            Type: BALANCE SHEET
+Account Code: 4241001000   Name: (T/O) Prem Pay.Mitsui Marine     Type: BALANCE SHEET
+Account Code: 4241001100   Name: (T/O) Clm  Rec.Mitsui Marine     Type: BALANCE SHEET
+Account Code: 4241002000   Name: (T/O) Prem Pay.MAI 87 Priority   Type: BALANCE SHEET
+Account Code: 4241002100   Name: (T/O) Clm  Rec.MAI 87 Priority   Type: BALANCE SHEET
+Account Code: 4241003000   Name: (T/O) Prem Pay.Taisho Malaysia   Type: BALANCE SHEET
+Account Code: 4241003100   Name: (T/O) Clm  Rec.Taisho Malaysia   Type: BALANCE SHEET
+Account Code: 4241004000   Name: (T/O) Prem Pay.Astra Buana       Type: BALANCE SHEET
+Account Code: 4241004100   Name: (T/O) Clm Rec. Astra Buana       Type: BALANCE SHEET
+Account Code: 4241005000   Name: (T/O) Prem Pay.RUI BPPDAN        Type: BALANCE SHEET
+Account Code: 4241005100   Name: (T/O) Clm. Rec.RUI BPPDAN        Type: BALANCE SHEET
+Account Code: 4241006000   Name: (T/O) Prem Pay.Tugu Jasatama     Type: BALANCE SHEET
+Account Code: 4241006100   Name: (T/O) Clm  Rec.Tugu Jasatama     Type: BALANCE SHEET
+Account Code: 4241007000   Name: (T/O) Prm.Pay.Taisho Singapore   Type: BALANCE SHEET
+Account Code: 4241007100   Name: (T/O) Clm.Rec.Taisho Singapore   Type: BALANCE SHEET
+Account Code: 4241008000   Name: (T/O) Prm.Pay.Sun Alliance       Type: BALANCE SHEET
+Account Code: 4241008100   Name: (T/O) Clm.Rec.Sun Alliance       Type: BALANCE SHEET
+Account Code: 4241009000   Name: (T/O) Prm.Pay SAFR               Type: BALANCE SHEET
+Account Code: 4241009100   Name: (T/O) Clm.Rec.SAFR               Type: BALANCE SHEET
+Account Code: 4241010000   Name: (T/O) Prm.Pay.Haakon             Type: BALANCE SHEET
+Account Code: 4241010100   Name: (T/O) Clm.Rec.Haakon             Type: BALANCE SHEET
+Account Code: 4241011000   Name: (T/O) Prm.Pay.Union Re           Type: BALANCE SHEET
+Account Code: 4241011100   Name: (T/O) Clm.Rec.Union Re           Type: BALANCE SHEET
+Account Code: 4241012000   Name: (T/O) Prm.Pay.Retro MAI 88       Type: BALANCE SHEET
+Account Code: 4241012100   Name: (T/O) Clm.Rec.Retro MAI 88       Type: BALANCE SHEET
+Account Code: 4241013000   Name: (T/O) Prm.Pay.RUI POKN           Type: BALANCE SHEET
+Account Code: 4241013100   Name: (T/O) Clm.Rec.RUI POKN           Type: BALANCE SHEET
+Account Code: 4241014000   Name: (T/O) Prm.Pay.Wahana Tata        Type: BALANCE SHEET
+Account Code: 4241014100   Name: (T/O) Clm.Rec.Wahana Tata        Type: BALANCE SHEET
+Account Code: 4241015000   Name: (T/O) Prm.Pay.REINDO             Type: BALANCE SHEET
+Account Code: 4241015100   Name: (T/O) Clm.Rec.REINDO             Type: BALANCE SHEET
+Account Code: 4241016000   Name: (T/O) Prm.Pay.WILLIS Faber       Type: BALANCE SHEET
+Account Code: 4241016100   Name: (T/O) Clm.Rec.WILLIS Faber       Type: BALANCE SHEET
+Account Code: 4241017000   Name: (T/O) Prm.Pay As. Tripakarta     Type: BALANCE SHEET
+Account Code: 4241017100   Name: (T/O) Clm.Rec.As. Tripakarta     Type: BALANCE SHEET
+Account Code: 4241018000   Name: (T/O)Prm.Pay American Re         Type: BALANCE SHEET
+Account Code: 4241018100   Name: (T/O) Clm.Rec.American Re        Type: BALANCE SHEET
+Account Code: 4241019000   Name: (T/O) Prem Pay.Munich Reins.Co   Type: BALANCE SHEET
+Account Code: 4241019100   Name: (T/O) Clm Rec.Munich Reins.Co    Type: BALANCE SHEET
+Account Code: 4241020000   Name: (T/O) Prem Pay.Raksa Pratikara   Type: BALANCE SHEET
+Account Code: 4241020100   Name: (T/O) Clm Rec. Raksa Pratikara   Type: BALANCE SHEET
+Account Code: 4250000000   Name: XOL Premium non T/O              Type: BALANCE SHEET
+Account Code: 4250001000   Name: XOL Prm.Pay.Mitsui Marine        Type: BALANCE SHEET
+Account Code: 4250006000   Name: XOL Prm.Pay.Tugu Jasatama        Type: BALANCE SHEET
+Account Code: 4261000000   Name: Fac.Inward Clm.Pay-SESSION       Type: BALANCE SHEET
+Account Code: 4281000000   Name: Prepaid clm.Pay.-SESSION         Type: BALANCE SHEET
+Account Code: 4410000000   Name: Employee Income Tax Pay-art 21   Type: BALANCE SHEET
+Account Code: 4410010000   Name: Employee Ins.Payable (THT)       Type: BALANCE SHEET
+Account Code: 4420000000   Name: Witholding Tax Payable           Type: BALANCE SHEET
+Account Code: 4420010000   Name: WHT Payable-Broker Commission    Type: BALANCE SHEET
+Account Code: 4420020000   Name: WHT Payable-Jakarta Workshops    Type: BALANCE SHEET
+Account Code: 4420030000   Name: WHT Payable - Branch Workshops   Type: BALANCE SHEET
+Account Code: 4420040000   Name: Withholding Tax Payable-Branch   Type: BALANCE SHEET
+Account Code: 4420050000   Name: WHT Payable - Workshops          Type: BALANCE SHEET
+Account Code: 4430000000   Name: Corporation Tax Payable          Type: BALANCE SHEET
+Account Code: 4610000000   Name: EXPENSE PA.- Marketing           Type: BALANCE SHEET
+Account Code: 4620000000   Name: EXPENSE PA.- General Expense     Type: BALANCE SHEET
+Account Code: 4690000000   Name: EXPENSE PAY- Other Expense       Type: BALANCE SHEET
+Account Code: 4820000000   Name: OTHER PAY.- Dividend             Type: BALANCE SHEET
+Account Code: 4830010000   Name: Other Payable                    Type: BALANCE SHEET
+Account Code: 4830021000   Name: SC Payable to MMFHO              Type: BALANCE SHEET
+Account Code: 4830022000   Name: SC Payable to MAI 87             Type: BALANCE SHEET
+Account Code: 4830030000   Name: VAT Payable Broker Commission    Type: BALANCE SHEET
+Account Code: 4830040000   Name: Provision For Tax Refund         Type: BALANCE SHEET
+Account Code: 4830061000   Name: VAT Payable on Serv.Chrg MMHO    Type: BALANCE SHEET
+Account Code: 4890010100   Name: Bridge Account                   Type: BALANCE SHEET
+Account Code: 4890010200   Name: Advance Payment.                 Type: BALANCE SHEET
+Account Code: 4890010210   Name: ADVANCE PAYMENT-BRANCH           Type: BALANCE SHEET
+Account Code: 4890010300   Name: Suspense Claim                   Type: BALANCE SHEET
+Account Code: 4890010400   Name: Suspense Premium Account         Type: BALANCE SHEET
+Account Code: 4890010500   Name: Suspense Reinsurance Fac/Co-Re   Type: BALANCE SHEET
+Account Code: 4890010600   Name: Suspense Reinsurance Tty Inwrd   Type: BALANCE SHEET
+Account Code: 4890010700   Name: Suspense Reinsurance Tty Outwd   Type: BALANCE SHEET
+Account Code: 4890010800   Name: Unallocated Account              Type: BALANCE SHEET
+Account Code: 4890010900   Name: Suspense Claim Foreign           Type: BALANCE SHEET
+Account Code: 4890011000   Name: Suspense Interest Account        Type: BALANCE SHEET
+Account Code: 4890020000   Name: Retirement Fund                  Type: BALANCE SHEET
+Account Code: 5110000000   Name: Paid-Up Capital                  Type: BALANCE SHEET
+Account Code: 5130000000   Name: Agio/disagio of Stock            Type: BALANCE SHEET
+Account Code: 5140000000   Name: Unrealised Gain/Loss MS          Type: BALANCE SHEET
+Account Code: 5161010000   Name: Retained Earning                 Type: BALANCE SHEET
+Account Code: 5161020000   Name: Last Year Profit                 Type: BALANCE SHEET
+Account Code: 5161030000   Name: Profit for the year              Type: BALANCE SHEET
+Account Code: 5162100000   Name: General Reserve                  Type: BALANCE SHEET
+Account Code: 6131000000   Name: Direct Premium Income            Type: PROFIT AND LOSS
+Account Code: 6132000000   Name: Inward Co-ins. Premium           Type: PROFIT AND LOSS
+Account Code: 6133000000   Name: Outward Co-ins Premium           Type: PROFIT AND LOSS
+Account Code: 6134000000   Name: (D) Assured Discount             Type: PROFIT AND LOSS
+Account Code: 6134100000   Name: Co (I) Assured Discount          Type: PROFIT AND LOSS
+Account Code: 6141000000   Name: Facultative Inward Prm           Type: PROFIT AND LOSS
+Account Code: 6141100000   Name: (I) Assured Discount             Type: PROFIT AND LOSS
+Account Code: 6142100100   Name: (T/I) Prem Sun Alliance          Type: PROFIT AND LOSS
+Account Code: 6142100200   Name: (T/I) Prem Astra Buana           Type: PROFIT AND LOSS
+Account Code: 6142100300   Name: (T/I) Prem Taisho Singapore      Type: PROFIT AND LOSS
+Account Code: 6142100400   Name: (T/I) Prem Taisho Malaysia       Type: PROFIT AND LOSS
+Account Code: 6142100600   Name: (T/I) Prem KARK                  Type: PROFIT AND LOSS
+Account Code: 6142100700   Name: (T/I) Prem MAI 87 Priority       Type: PROFIT AND LOSS
+Account Code: 6142100800   Name: (T/I) Prem Wahana Tata           Type: PROFIT AND LOSS
+Account Code: 6142100900   Name: (T/I) Prem Tripakarta            Type: PROFIT AND LOSS
+Account Code: 6142101000   Name: (T/I) Prem Raksa Pratikar        Type: PROFIT AND LOSS
+Account Code: 6142200100   Name: (T/I) Prem REINDO                Type: PROFIT AND LOSS
+Account Code: 6331001000   Name: Fac.Outward Prm.R0004001/6 MHO   Type: PROFIT AND LOSS
+Account Code: 6331002000   Name: Fac.Outward Prm.R0004002 Spore   Type: PROFIT AND LOSS
+Account Code: 6331004000   Name: Fac.Outward Prm.- Others         Type: PROFIT AND LOSS
+Account Code: 6331005000   Name: Fac.Outward Prm.R0400087 MAI87   Type: PROFIT AND LOSS
+Account Code: 6331006000   Name: Fac.Outward Prm.-R0400068        Type: PROFIT AND LOSS
+Account Code: 6341000000   Name: T/O PREMIUM - SESSION            Type: PROFIT AND LOSS
+Account Code: 6341001000   Name: (T/O) Prm Mitsui Marine & Fire   Type: PROFIT AND LOSS
+Account Code: 6341002000   Name: (T/O) Prm MAI 87 Priority        Type: PROFIT AND LOSS
+Account Code: 6341003000   Name: (T/O) Prm Taisho Malaysia        Type: PROFIT AND LOSS
+Account Code: 6341004000   Name: (T/O) Prm Astra Buana            Type: PROFIT AND LOSS
+Account Code: 6341007000   Name: (T/O) Prm Taisho Singapore       Type: PROFIT AND LOSS
+Account Code: 6341008000   Name: (T/O) Prm Sun Alliance           Type: PROFIT AND LOSS
+Account Code: 6341009000   Name: (T/O) Prm SAFR                   Type: PROFIT AND LOSS
+Account Code: 6341010000   Name: (T/O) Prm Haakon                 Type: PROFIT AND LOSS
+Account Code: 6341011000   Name: (T/O) Prm Union Reins.           Type: PROFIT AND LOSS
+Account Code: 6341012000   Name: (T/O) Prm Retro MAI 88           Type: PROFIT AND LOSS
+Account Code: 6341014000   Name: (T/O) Prm Wahana Tata            Type: PROFIT AND LOSS
+Account Code: 6341015000   Name: (T/O) Prm REINDO                 Type: PROFIT AND LOSS
+Account Code: 6341016000   Name: (T/O) Prm.WILLIS Faber           Type: PROFIT AND LOSS
+Account Code: 6341017000   Name: (T/O) Prm.Asuransi Tripakarta    Type: PROFIT AND LOSS
+Account Code: 6341018000   Name: (T/O).Prm American Re            Type: PROFIT AND LOSS
+Account Code: 6341019000   Name: (T/O) Prm. Munich Reins. Co.     Type: PROFIT AND LOSS
+Account Code: 6341020000   Name: (T/O) Prm As.Raksa Pratikara     Type: PROFIT AND LOSS
+Account Code: 6350000000   Name: XOL Premium                      Type: PROFIT AND LOSS
+Account Code: 6440000000   Name: UPR Reserve                      Type: PROFIT AND LOSS
+Account Code: 6450000000   Name: UPR Released                     Type: PROFIT AND LOSS
+Account Code: 6511100000   Name: Interest from O/D                Type: PROFIT AND LOSS
+Account Code: 6511101000   Name: Final WHT on O/D interest        Type: PROFIT AND LOSS
+Account Code: 6511200000   Name: Interest from T/D                Type: PROFIT AND LOSS
+Account Code: 6511201000   Name: Final WHT on T/D interest        Type: PROFIT AND LOSS
+Account Code: 6520000000   Name: DEVIDEND (INCOME)                Type: PROFIT AND LOSS
+Account Code: 6561000000   Name: Exchg.gain/loss from T/D         Type: PROFIT AND LOSS
+Account Code: 6900010000   Name: Claim Fee                        Type: PROFIT AND LOSS
+Account Code: 6900020000   Name: Sundry Income                    Type: PROFIT AND LOSS
+Account Code: 6900030000   Name: Sundry Loss                      Type: PROFIT AND LOSS
+Account Code: 7171100000   Name: (D) Clm Paid - Amount            Type: PROFIT AND LOSS
+Account Code: 7172100000   Name: Co (O) clm recov - amount        Type: PROFIT AND LOSS
+Account Code: 7173100000   Name: Co(I) Clm Paid - amount          Type: PROFIT AND LOSS
+Account Code: 7181100000   Name: (I) Claim Paid - amount          Type: PROFIT AND LOSS
+Account Code: 7182100100   Name: (T/I) Clm Paid Sun Alliance      Type: PROFIT AND LOSS
+Account Code: 7182100200   Name: (T/I) Clm Paid Astra Buana       Type: PROFIT AND LOSS
+Account Code: 7182100300   Name: (T/I) Clm Paid Taisho Singapor   Type: PROFIT AND LOSS
+Account Code: 7182100400   Name: (T/I) Clm Paid Taisho Malaysia   Type: PROFIT AND LOSS
+Account Code: 7182100600   Name: (T/I) Clm Paid KARK              Type: PROFIT AND LOSS
+Account Code: 7182100700   Name: (T/I) Clm Paid MAI 87            Type: PROFIT AND LOSS
+Account Code: 7182100800   Name: (T/I) Clm Paid Wahana Tata       Type: PROFIT AND LOSS
+Account Code: 7182100900   Name: (T/I) Clm Paid REINDO            Type: PROFIT AND LOSS
+Account Code: 7182101000   Name: (T/I) Clm Paid Tripakarta        Type: PROFIT AND LOSS
+Account Code: 7182101100   Name: (T/I) Clm Paid Raksa Pratikar    Type: PROFIT AND LOSS
+Account Code: 7241101000   Name: (O) clm amount R0004001/6 MMHO   Type: PROFIT AND LOSS
+Account Code: 7241102000   Name: (O) clm amount R0004002 S'pore   Type: PROFIT AND LOSS
+Account Code: 7241104000   Name: (O) clm amount - others          Type: PROFIT AND LOSS
+Account Code: 7241105000   Name: (O) Clm amount - MAI87           Type: PROFIT AND LOSS
+Account Code: 7241106000   Name: (O) Clm amt-Wahana TataR040068   Type: PROFIT AND LOSS
+Account Code: 7251100100   Name: (T/O) Clm recov.Mitsui Marine    Type: PROFIT AND LOSS
+Account Code: 7251100200   Name: (T/O) Clm recov.MAI 87 Priorty   Type: PROFIT AND LOSS
+Account Code: 7251100300   Name: (T/O) Clm recov.Taisho Malasia   Type: PROFIT AND LOSS
+Account Code: 7251100400   Name: (T/O) Clm recov.Astra Buana      Type: PROFIT AND LOSS
+Account Code: 7251100700   Name: (T/O) Clm recov.Taisho Singapr   Type: PROFIT AND LOSS
+Account Code: 7251100800   Name: (T/O) Clm recov.Sun Alliance     Type: PROFIT AND LOSS
+Account Code: 7251100900   Name: (T/O) Clm recov.SAFR             Type: PROFIT AND LOSS
+Account Code: 7251101000   Name: (T/O) Clm recov.Haakon           Type: PROFIT AND LOSS
+Account Code: 7251101100   Name: (T/O) Clm recov.Union Re         Type: PROFIT AND LOSS
+Account Code: 7251101200   Name: (T/O) Clm recov.Retro MAI 88     Type: PROFIT AND LOSS
+Account Code: 7251101400   Name: (T/O) Clm recov.Wahana Tata      Type: PROFIT AND LOSS
+Account Code: 7251101500   Name: (T/O) Clm recov.REINDO           Type: PROFIT AND LOSS
+Account Code: 7251101600   Name: (T/O) Clm Recov.WILLIS Faber     Type: PROFIT AND LOSS
+Account Code: 7251101700   Name: (T/O) Claim Rec.As. Tripakarta   Type: PROFIT AND LOSS
+Account Code: 7251101800   Name: (T/O) Clm.Recov.American Re      Type: PROFIT AND LOSS
+Account Code: 7251101900   Name: (T/O) Clm.Recov.Munich Reins.    Type: PROFIT AND LOSS
+Account Code: 7251102000   Name: (T/O) Clm.Recov.Raksa Pratikar   Type: PROFIT AND LOSS
+Account Code: 7260000000   Name: XOL clm recoverable              Type: PROFIT AND LOSS
+Account Code: 7510000000   Name: Net O/S Loss Reserve             Type: PROFIT AND LOSS
+Account Code: 7520000000   Name: Net O/S Loss Released            Type: PROFIT AND LOSS
+Account Code: 7711100000   Name: (D) Commission Paid              Type: PROFIT AND LOSS
+Account Code: 7711200000   Name: Co (O) Commission Received       Type: PROFIT AND LOSS
+Account Code: 7711300000   Name: Co (I) Commission Paid           Type: PROFIT AND LOSS
+Account Code: 7712110000   Name: Fac.(I) Comm.- SESSION           Type: PROFIT AND LOSS
+Account Code: 7712210010   Name: (T/I) Comm.Sun Alliance          Type: PROFIT AND LOSS
+Account Code: 7712210020   Name: (T/I) Comm.Astra Buana           Type: PROFIT AND LOSS
+Account Code: 7712210030   Name: (T/I) Comm.Astra Taisho S'pore   Type: PROFIT AND LOSS
+Account Code: 7712210040   Name: (T/I) Comm.Astra Taisho Malays   Type: PROFIT AND LOSS
+Account Code: 7712210060   Name: (T/I) Comm.KARK                  Type: PROFIT AND LOSS
+Account Code: 7712210070   Name: (T/I) Comm.MAI 87                Type: PROFIT AND LOSS
+Account Code: 7712210080   Name: (T/I) Comm.Wahana Tata           Type: PROFIT AND LOSS
+Account Code: 7712210090   Name: (T/I) Comm. Tripakarta           Type: PROFIT AND LOSS
+Account Code: 7712210100   Name: (T/I) Comm Raksa Pratikar        Type: PROFIT AND LOSS
+Account Code: 7712220010   Name: (T/I) Comm.REINDO                Type: PROFIT AND LOSS
+Account Code: 7721100100   Name: Fac.(O) Comm.R0004001/6 MMFHO    Type: PROFIT AND LOSS
+Account Code: 7721100200   Name: Fac.(O) Comm.R0004002 Singapor   Type: PROFIT AND LOSS
+Account Code: 7721100400   Name: Fac.(O) Comm.- Others            Type: PROFIT AND LOSS
+Account Code: 7721100500   Name: Fac.(O) Comm.- MAI87             Type: PROFIT AND LOSS
+Account Code: 7721100600   Name: Fac.(O) Comm.-R0400068           Type: PROFIT AND LOSS
+Account Code: 7722100100   Name: (T/O) Comm.Mitsui Marine HO      Type: PROFIT AND LOSS
+Account Code: 7722100200   Name: (T/O) Comm.MAI 87 Priority       Type: PROFIT AND LOSS
+Account Code: 7722100300   Name: (T/O) Comm.Taisho Malaysia       Type: PROFIT AND LOSS
+Account Code: 7722100400   Name: (T/O) Comm.Astra Buana           Type: PROFIT AND LOSS
+Account Code: 7722100700   Name: (T/O) Comm.Taisho Singapore      Type: PROFIT AND LOSS
+Account Code: 7722100800   Name: (T/O) Comm.Sun Alliance          Type: PROFIT AND LOSS
+Account Code: 7722100900   Name: (T/O) Comm.SAFR                  Type: PROFIT AND LOSS
+Account Code: 7722101000   Name: (T/O) Comm.Haakon                Type: PROFIT AND LOSS
+Account Code: 7722101100   Name: (T/O) Comm.Union Re.             Type: PROFIT AND LOSS
+Account Code: 7722101200   Name: (T/O) Comm.Retro MAI 88          Type: PROFIT AND LOSS
+Account Code: 7722101400   Name: (T/O) Comm.Wahana Tata           Type: PROFIT AND LOSS
+Account Code: 7722101500   Name: (T/O) Comm.REINDO                Type: PROFIT AND LOSS
+Account Code: 7722101600   Name: (T/O) Comm. WILLIS Faber         Type: PROFIT AND LOSS
+Account Code: 7722101700   Name: (T/O) Comm.Asuransi Tripakarta   Type: PROFIT AND LOSS
+Account Code: 7722101800   Name: (T/O) Comm.American Re           Type: PROFIT AND LOSS
+Account Code: 7722101900   Name: (T/O) Comm. Munich Reins. Co     Type: PROFIT AND LOSS
+Account Code: 7722102000   Name: (T/O) Comm.As.Raksa Pratikara    Type: PROFIT AND LOSS
+Account Code: 7900010100   Name: Service Charge - MMFHO           Type: PROFIT AND LOSS
+Account Code: 7900010200   Name: Service Charge - MAI 87          Type: PROFIT AND LOSS
+Account Code: 7900020000   Name: Comm.exp.to Breoker              Type: PROFIT AND LOSS
+Account Code: 8111000000   Name: Mass Media Promotion             Type: PROFIT AND LOSS
+Account Code: 8113001000   Name: Promotion/Sponsor PD/VP          Type: PROFIT AND LOSS
+Account Code: 8113002000   Name: Promotion/Sponsor D              Type: PROFIT AND LOSS
+Account Code: 8113003000   Name: Promotion/Sponsor TAU            Type: PROFIT AND LOSS
+Account Code: 8113004000   Name: Promotion/Sponsor TAC            Type: PROFIT AND LOSS
+Account Code: 8113005000   Name: Promotion/Sponsor TAP            Type: PROFIT AND LOSS
+Account Code: 8113006000   Name: Promotion/Sponsor DA             Type: PROFIT AND LOSS
+Account Code: 8113007000   Name: Promotion/Sponsor GM-P.I         Type: PROFIT AND LOSS
+Account Code: 8113008000   Name: Promotion/Sponsor GM-P.II        Type: PROFIT AND LOSS
+Account Code: 8113009000   Name: Promotion/Sponsor ToyotaDealer   Type: PROFIT AND LOSS
+Account Code: 8113010000   Name: Promotion/Sponsor Honda Dealer   Type: PROFIT AND LOSS
+Account Code: 8114001000   Name: Souvenir PD/VP                   Type: PROFIT AND LOSS
+Account Code: 8114002000   Name: Souvenir D                       Type: PROFIT AND LOSS
+Account Code: 8114004000   Name: Souvenir TAC                     Type: PROFIT AND LOSS
+Account Code: 8114005000   Name: Souvenir TAP                     Type: PROFIT AND LOSS
+Account Code: 8131001000   Name: Entertainment PD/VP              Type: PROFIT AND LOSS
+Account Code: 8131002000   Name: Entertainment D                  Type: PROFIT AND LOSS
+Account Code: 8131003000   Name: Entertainment TAU                Type: PROFIT AND LOSS
+Account Code: 8131004000   Name: Entertainment TAC                Type: PROFIT AND LOSS
+Account Code: 8131005000   Name: Entertainment TAP                Type: PROFIT AND LOSS
+Account Code: 8131006000   Name: Entertainment DA                 Type: PROFIT AND LOSS
+Account Code: 8131007000   Name: Entertainment GM-P.I             Type: PROFIT AND LOSS
+Account Code: 8131008000   Name: Entertainment GM-P.II            Type: PROFIT AND LOSS
+Account Code: 8131009000   Name: Entertainment Toyota Dealer      Type: PROFIT AND LOSS
+Account Code: 8211000000   Name: BOD Salary                       Type: PROFIT AND LOSS
+Account Code: 8212000000   Name: Employee Salary                  Type: PROFIT AND LOSS
+Account Code: 8213000000   Name: Overtime & Meal                  Type: PROFIT AND LOSS
+Account Code: 8214000000   Name: Honorarium                       Type: PROFIT AND LOSS
+Account Code: 8215100100   Name: THR ALLOWANCE                    Type: PROFIT AND LOSS
+Account Code: 8215100200   Name: Gratification/Bonus              Type: PROFIT AND LOSS
+Account Code: 8215100300   Name: Profit Share                     Type: PROFIT AND LOSS
+Account Code: 8215200000   Name: Function Allowance               Type: PROFIT AND LOSS
+Account Code: 8215300000   Name: Tax 21 Allowance                 Type: PROFIT AND LOSS
+Account Code: 8215700000   Name: Leave Allowance                  Type: PROFIT AND LOSS
+Account Code: 8215800000   Name: Housing Allowance                Type: PROFIT AND LOSS
+Account Code: 8215900100   Name: Family Allowance                 Type: PROFIT AND LOSS
+Account Code: 8215900200   Name: Fiscal Allowance                 Type: PROFIT AND LOSS
+Account Code: 8215900300   Name: Interest Allowance               Type: PROFIT AND LOSS
+Account Code: 8215900400   Name: Professional Allowance           Type: PROFIT AND LOSS
+Account Code: 8216200000   Name: Jamsostek                        Type: PROFIT AND LOSS
+Account Code: 8216300000   Name: Pension                          Type: PROFIT AND LOSS
+Account Code: 8216400000   Name: Sport & Recreation               Type: PROFIT AND LOSS
+Account Code: 8216500000   Name: Medical & Hospital               Type: PROFIT AND LOSS
+Account Code: 8216600000   Name: Uniform                          Type: PROFIT AND LOSS
+Account Code: 8216700000   Name: Donation to Employee             Type: PROFIT AND LOSS
+Account Code: 8217100000   Name: Psichotest for Recruitment       Type: PROFIT AND LOSS
+Account Code: 8217200000   Name: Medical Test for Recruitment     Type: PROFIT AND LOSS
+Account Code: 8217300000   Name: Advertising fo Recruitment       Type: PROFIT AND LOSS
+Account Code: 8219000000   Name: Merit Expense                    Type: PROFIT AND LOSS
+Account Code: 8221000000   Name: Local Business Trip              Type: PROFIT AND LOSS
+Account Code: 8222000000   Name: Overseas Business Trip           Type: PROFIT AND LOSS
+Account Code: 8231100000   Name: Local Study                      Type: PROFIT AND LOSS
+Account Code: 8231200000   Name: Overseas Study                   Type: PROFIT AND LOSS
+Account Code: 8232100000   Name: Local Seminar/Course             Type: PROFIT AND LOSS
+Account Code: 8232200000   Name: Overseas Seminar/Course          Type: PROFIT AND LOSS
+Account Code: 8234000000   Name: In-House Training                Type: PROFIT AND LOSS
+Account Code: 8235001000   Name: Library - Books                  Type: PROFIT AND LOSS
+Account Code: 8236001000   Name: ETI-Daily Expenses               Type: PROFIT AND LOSS
+Account Code: 8236002000   Name: ETI-Insurance Premium            Type: PROFIT AND LOSS
+Account Code: 8236003000   Name: ETI-Education Others             Type: PROFIT AND LOSS
+Account Code: 8241000000   Name: Audit Fee                        Type: PROFIT AND LOSS
+Account Code: 8242000000   Name: Law Consultant                   Type: PROFIT AND LOSS
+Account Code: 8243000000   Name: Notary Consultant                Type: PROFIT AND LOSS
+Account Code: 8245000000   Name: General Consultant               Type: PROFIT AND LOSS
+Account Code: 8249000000   Name: Consultant - Others              Type: PROFIT AND LOSS
+Account Code: 8249001000   Name: Consultant Others-Risk Survey    Type: PROFIT AND LOSS
+Account Code: 8251010000   Name: Technical Fee SOS Int'l          Type: PROFIT AND LOSS
+Account Code: 8260000000   Name: Membership Fee                   Type: PROFIT AND LOSS
+Account Code: 8261000000   Name: Membership-Professional Orgss.   Type: PROFIT AND LOSS
+Account Code: 8263000000   Name: Membership-Association Orgss.    Type: PROFIT AND LOSS
+Account Code: 8264000000   Name: Membership-Sport                 Type: PROFIT AND LOSS
+Account Code: 8271000000   Name: Immigration Expense              Type: PROFIT AND LOSS
+Account Code: 8272000000   Name: Home Facilities for Expatriate   Type: PROFIT AND LOSS
+Account Code: 8279000000   Name: Other expatriate Expense         Type: PROFIT AND LOSS
+Account Code: 8292000000   Name: Shareholder Meeting Expense      Type: PROFIT AND LOSS
+Account Code: 8294000000   Name: Tax Fine                         Type: PROFIT AND LOSS
+Account Code: 8299001000   Name: Daily Travel Expense             Type: PROFIT AND LOSS
+Account Code: 8299003000   Name: Legalization Expense             Type: PROFIT AND LOSS
+Account Code: 8311000000   Name: Office Rent                      Type: PROFIT AND LOSS
+Account Code: 8312000000   Name: Office Light & Water             Type: PROFIT AND LOSS
+Account Code: 8313000000   Name: Office Premium Insurance         Type: PROFIT AND LOSS
+Account Code: 8315000000   Name: Office Repair & Maintenance      Type: PROFIT AND LOSS
+Account Code: 8316000000   Name: Office Moving Expense            Type: PROFIT AND LOSS
+Account Code: 8321000000   Name: House Rent (non Expatriate)      Type: PROFIT AND LOSS
+Account Code: 8322000000   Name: House Light & Water              Type: PROFIT AND LOSS
+Account Code: 8323000000   Name: House Insurance Premium          Type: PROFIT AND LOSS
+Account Code: 8324000000   Name: Tax on Property (PBB) - House    Type: PROFIT AND LOSS
+Account Code: 8325000000   Name: House Maintenace                 Type: PROFIT AND LOSS
+Account Code: 8326000000   Name: House Moving Expense             Type: PROFIT AND LOSS
+Account Code: 8332000000   Name: Depr.House  Building             Type: PROFIT AND LOSS
+Account Code: 8333100000   Name: Depr. Computer                   Type: PROFIT AND LOSS
+Account Code: 8333200000   Name: Depr. Office equipment           Type: PROFIT AND LOSS
+Account Code: 8334100000   Name: Depr.Office Furniture            Type: PROFIT AND LOSS
+Account Code: 8334200000   Name: Depr. House Furniture            Type: PROFIT AND LOSS
+Account Code: 8335000000   Name: Depr. Motor                      Type: PROFIT AND LOSS
+Account Code: 8336000000   Name: Depr.Leasehold Improvement       Type: PROFIT AND LOSS
+Account Code: 8343000000   Name: Amort.Software                   Type: PROFIT AND LOSS
+Account Code: 8351000000   Name: Stationary Expense               Type: PROFIT AND LOSS
+Account Code: 8352001000   Name: Non-computer Printing            Type: PROFIT AND LOSS
+Account Code: 8352002000   Name: Computer Printing                Type: PROFIT AND LOSS
+Account Code: 8353001000   Name: Stamp Duty Usage - PPD           Type: PROFIT AND LOSS
+Account Code: 8353002000   Name: Stamp Duty Usage - Settlement    Type: PROFIT AND LOSS
+Account Code: 8353003000   Name: Stamp Duty Usage - Accounting    Type: PROFIT AND LOSS
+Account Code: 8353004000   Name: Stamp Duty Usage - Finance       Type: PROFIT AND LOSS
+Account Code: 8353005000   Name: Stamp Duty Usage - P/GA/Legal    Type: PROFIT AND LOSS
+Account Code: 8353006000   Name: Stamp Duty Usage - Others        Type: PROFIT AND LOSS
+Account Code: 8354000000   Name: Photocopy Expense                Type: PROFIT AND LOSS
+Account Code: 8355000000   Name: Documentation                    Type: PROFIT AND LOSS
+Account Code: 8357000000   Name: Daily Consumpt/Pantry expense    Type: PROFIT AND LOSS
+Account Code: 8357010000   Name: SUPPLIES                         Type: PROFIT AND LOSS
+Account Code: 8361001000   Name: Telephone                        Type: PROFIT AND LOSS
+Account Code: 8361002000   Name: Facsimile                        Type: PROFIT AND LOSS
+Account Code: 8362000000   Name: Postage                          Type: PROFIT AND LOSS
+Account Code: 8363000000   Name: Expedition                       Type: PROFIT AND LOSS
+Account Code: 8364000000   Name: Internet Expense                 Type: PROFIT AND LOSS
+Account Code: 8369000000   Name: Other Communication Expense      Type: PROFIT AND LOSS
+Account Code: 8371000000   Name: Gasoline                         Type: PROFIT AND LOSS
+Account Code: 8372000000   Name: Motor Insurance Premium          Type: PROFIT AND LOSS
+Account Code: 8373001000   Name: Car Repair & Service             Type: PROFIT AND LOSS
+Account Code: 8373002000   Name: Spare Part                       Type: PROFIT AND LOSS
+Account Code: 8373003000   Name: Tyre, Tube, Accu                 Type: PROFIT AND LOSS
+Account Code: 8374000000   Name: Motor Taxes                      Type: PROFIT AND LOSS
+Account Code: 8375000000   Name: Parking & Toll                   Type: PROFIT AND LOSS
+Account Code: 8376000000   Name: Rent Car                         Type: PROFIT AND LOSS
+Account Code: 8377000000   Name: General Transportation           Type: PROFIT AND LOSS
+Account Code: 8381000000   Name: Computer Software                Type: PROFIT AND LOSS
+Account Code: 8382000000   Name: Computer Supplies                Type: PROFIT AND LOSS
+Account Code: 8383000000   Name: Computer Maintenance             Type: PROFIT AND LOSS
+Account Code: 8911000000   Name: Giro - Interest from C/A         Type: PROFIT AND LOSS
+Account Code: 8911001000   Name: Final WHT interest C/A           Type: PROFIT AND LOSS
+Account Code: 8912000000   Name: Gain on Selling fixed asset      Type: PROFIT AND LOSS
+Account Code: 8914000000   Name: Exchange gain non investment     Type: PROFIT AND LOSS
+Account Code: 8921000000   Name: Bank Charge                      Type: PROFIT AND LOSS
+Account Code: 8922000000   Name: Loss from selling fixed asset    Type: PROFIT AND LOSS
+Account Code: 8923000000   Name: Exchange Loss non investment     Type: PROFIT AND LOSS
+Account Code: 8927000000   Name: Different Payment (rounding)     Type: PROFIT AND LOSS
+Account Code: 9000000000   Name: Corporation Tax                  Type: PROFIT AND LOSS
+Account Code: 9001000000   Name: Deferred Tax Expense (Income)    Type: PROFIT AND LOSS
