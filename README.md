@@ -84,7 +84,7 @@ by Teuku Raja Irfan Radarma
     <td>---</td>
     <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2006%20-%20Simulasi%20Sejajar/06.%20Simulasi%20Sejajar.pptx" target="_blank">06. Simulasi Sejajar</a></td>
     <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2006%20-%20Simulasi%20Sejajar/Lat6.%20Data.xlsx" target="_blank">Data Latihan</a><br>
-    <a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2006%20-%20Simulasi%20Sejajar/Lat6.%20KertasKerja.xlsx" target="_blank">Data Latihan</a></td>
+    <a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2006%20-%20Simulasi%20Sejajar/Lat6.%20KertasKerja.xlsx" target="_blank">Kertas Kerja</a></td>
   </tr>
   <tr>
     <td>7</td>
