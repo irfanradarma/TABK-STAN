@@ -14,4 +14,4 @@ _Akses ilegal dapat terdeteksi dan akan disanksi tegas_
 
 
 ## Soal
-<a href="https://forms.gle/V8qNmoNoMPjt2EpP8" target="_blank">Form soal</a>
+<a href="https://forms.gle/r7G4UuwWFeFzZkV98" target="_blank">Form soal</a>
