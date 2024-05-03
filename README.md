@@ -91,7 +91,7 @@ by Teuku Raja Irfan Radarma
     <td>Simulasi Sejajar II</td>
     <td>---</td>
     <td>---</td>
-    <td>---</td>
+    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2007%20-%20Simulasi%20Sejajar/Latihan%20UTS-2021.zip" target="_blank">Latihan UTS</a></td>
   </tr>
   <tr>
     <td>8</td>
