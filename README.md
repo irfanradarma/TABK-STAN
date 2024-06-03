@@ -103,8 +103,8 @@ by Teuku Raja Irfan Radarma
     <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2009%20-%20Basis%20Data/Dosko/Pemanfaatan%20query%20untuk%20audit-MySQL.pptx" target="_blank">Pemanfaatan query untuk audit-MySQL</a></td>
     <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2009%20-%20Basis%20Data/09.%20Intro%20to%20Database.pptx" target="_blank">09. Pengantar Basis Data</a></td>
     <td>Installer:<br>
-    <a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2009%20-%20Basis%20Data/Installer/Windows.zip" target="_blank">- Windows</a><br>
-    <a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2009%20-%20Basis%20Data/Installer/SQL MacOS.pptx" target="_blank">- guide MacOS</a><br><br>
+    <a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2009%20-%20Basis%20Data/Dosko/Installer/Windows.zip" target="_blank">- Windows</a><br>
+    <a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2009%20-%20Basis%20Data/Dosko/Installer/SQL MacOS.pptx" target="_blank">- guide MacOS</a><br><br>
     Data:<br>
     <a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2009%20-%20Basis%20Data/Data/latihan01.sql" target="_blank">- latihan01.sql</a><br>
     <a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2009%20-%20Basis%20Data/Data/latihan02.sql" target="_blank">- latihan02.sql</a></td>
