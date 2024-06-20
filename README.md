@@ -113,7 +113,7 @@ by Teuku Raja Irfan Radarma
     <td>10</td>
     <td>Data, Tabel, dan Query II</td>
     <td>---</td>
-    <td>---</td>
+    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2010%20-%20Basis%20Data%20II/10.%20Intro%20to%20Database%20II.pptx" target="_blank">10. Basis Data II</a></td>
     <td>---</td>
   </tr>
   <tr>
