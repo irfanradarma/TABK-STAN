@@ -119,8 +119,8 @@ by Teuku Raja Irfan Radarma
   <tr>
     <td>11</td>
     <td>Pengujian Analitik dan Sampling I</td>
-    <td>---</td>
-    <td>---</td>
+    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2011%20-%20Analisis%20Data%20dan%20Sampling/Dosko/Analisis%20Data%20_%20Sampling.pptx" target="_blank">Analisis Data dan Sampling</a></td>
+    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2011%20-%20Analisis%20Data%20dan%20Sampling/11.%20Analisis%20Data%20dan%20Sampling.pptx" target="_blank">11. Analisis Data dan Sampling</a></td>
     <td>---</td>
   </tr>
   <tr>
