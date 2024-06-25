@@ -128,7 +128,8 @@ by Teuku Raja Irfan Radarma
     <td>Pengujian Analitik dan Sampling II</td>
     <td>---</td>
     <td>---</td>
-    <td>---</td>
+    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2012%20-%20Analisis%20Data%20dan%20Sampling%20II/latihan/1.%20SQL.zip" target="_blank">1. Soal SQL</a><br>
+    <a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2012%20-%20Analisis%20Data%20dan%20Sampling%20II/latihan/2.%20Analisis%20Data%20dan%20Sampling.zip" target="_blank">2. Soal Analisis Data</a></td>
   </tr>
   <tr>
     <td>13</td>
