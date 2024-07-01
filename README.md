@@ -134,9 +134,12 @@ by Teuku Raja Irfan Radarma
   <tr>
     <td>13</td>
     <td>Uji Substantif: Siklus Penjualan</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
+    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2013%20-%20Siklus%20Penjualan/Revenue%20Cycle.pptx" target="_blank">Revenue Cycle</a></td>
+    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2013%20-%20Siklus%20Penjualan/13.%20Asersi%20Manajemen%20dan%20Siklus%20Penjualan.pptx" target="_blank">13. Asersi Manajemen dan Siklus Penjualan</a></td>
+    <td>Data Latihan<br>
+    <a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2013%20-%20Siklus%20Penjualan/EDP-Audit-Latihan-02%20-%20Data%20Penjualan.xls" target="_blank">Latihan 1</a><br>
+    <a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2013%20-%20Siklus%20Penjualan/EDP-Audit-Latihan-08%20-%20Data%20penjualan.xls" target="_blank">Latihan 2</a>
+    </td>
   </tr>
     <tr>
     <td>14</td>
