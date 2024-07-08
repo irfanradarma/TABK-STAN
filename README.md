@@ -145,8 +145,10 @@ by Teuku Raja Irfan Radarma
     <td>14</td>
     <td>Uji Substantif: Siklus Pembelian</td>
     <td>...</td>
-    <td>...</td>
-    <td>...</td>
+    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2014%20-%20Siklus%20Pembelian/14.%20Siklus%20Pembelian.pptx" target="_blank">14. Siklus Pembelian</a></td>
+    <td>Data Latihan<br>
+    <a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2014%20-%20Siklus%20Pembelian/EDP-Audit-Latihan-09%20-%20Data%20Pembelian.xls" target="_blank">Latihan 1</a><br>
+    <a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2014%20-%20Siklus%20Pembelian/EDP-Audit-Latihan-10%20-%20Data%20Pembelian.xls" target="_blank">Latihan 2</a></td>
   </tr>
     <tr>
     <td>15</td>
