@@ -134,7 +134,8 @@ by Teuku Raja Irfan Radarma
   <tr>
     <td>13</td>
     <td>Uji Substantif: Siklus Penjualan</td>
-    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2013%20-%20Siklus%20Penjualan/Revenue%20Cycle.pptx" target="_blank">Revenue Cycle</a></td>
+    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2013%20-%20Siklus%20Penjualan/Revenue%20Cycle.pptx" target="_blank">Revenue Cycle</a><br><br>
+    <a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2013%20-%20Siklus%20Penjualan/TABK_AUDIT%20SIKLUS%20PENJUALAN.pdf" target="_blank">Modul Siklus Penjualan</a></td>
     <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2013%20-%20Siklus%20Penjualan/13.%20Asersi%20Manajemen%20dan%20Siklus%20Penjualan.pptx" target="_blank">13. Asersi Manajemen dan Siklus Penjualan</a></td>
     <td>Data Latihan<br>
     <a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2013%20-%20Siklus%20Penjualan/EDP-Audit-Latihan-02%20-%20Data%20Penjualan.xls" target="_blank">Latihan 1</a><br>
@@ -144,7 +145,7 @@ by Teuku Raja Irfan Radarma
     <tr>
     <td>14</td>
     <td>Uji Substantif: Siklus Pembelian</td>
-    <td>...</td>
+    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2014%20-%20Siklus%20Pembelian/TABK_AUDIT%20SIKLUS%20PEMBELIAN.pdf" target="_blank">Modul Siklus Pembelian</a></td>
     <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2014%20-%20Siklus%20Pembelian/14.%20Siklus%20Pembelian.pptx" target="_blank">14. Siklus Pembelian</a></td>
     <td>Data Latihan<br>
     <a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2014%20-%20Siklus%20Pembelian/EDP-Audit-Latihan-09%20-%20Data%20Pembelian.xls" target="_blank">Latihan 1</a><br>
@@ -153,9 +154,11 @@ by Teuku Raja Irfan Radarma
     <tr>
     <td>15</td>
     <td>Uji Substantif: Kas dan Aset Tetap</td>
+    <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2015%20-%20Siklus%20Kas%20dan%20Aset%20Tetap/TABK_AUDIT%20KAS%20DAN%20SETARA%20KAS.pdf" target="_blank">Modul Siklus Kas</a></td>
     <td>...</td>
-    <td>...</td>
-    <td>...</td>
+    <td>Data Latihan<br>
+    - <a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2015%20-%20Siklus%20Kas%20dan%20Aset%20Tetap/EDP-Audit-Latihan-05%20-%Buku-Bank.xls" target="_blank">Latihan 1: Buku Bank</a><br>
+    - <a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2015%20-%20Siklus%20Kas%20dan%20Aset%20Tetap/EDP-Audit-Latihan-06%20-%20Depresiasi.xls" target="_blank">Latihan 2: Depresiasi</a></td>
   </tr>
     <tr>
     <td>16</td>
