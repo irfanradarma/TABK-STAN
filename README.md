@@ -157,7 +157,7 @@ by Teuku Raja Irfan Radarma
     <td><a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2015%20-%20Kas%20dan%20Aset%20Tetap/TABK_AUDIT%20KAS%20DAN%20SETARA%20KAS.pdf" target="_blank">Modul Siklus Kas</a></td>
     <td>...</td>
     <td>Data Latihan<br>
-    - <a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2015%20-%20Kas%20dan%20Aset%20Tetap/EDP-Audit-Latihan-05%20-%20Buku-Bank" target="_blank">Latihan 1: Buku Bank</a><br>
+    - <a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2015%20-%20Kas%20dan%20Aset%20Tetap/EDP-Audit-Latihan-05%20-%20Buku-Bank.xls" target="_blank">Latihan 1: Buku Bank</a><br>
     - <a href="https://github.com/irfanradarma/TABK-STAN/raw/main/slide/Week%2015%20-%20Kas%20dan%20Aset%20Tetap/EDP-Audit-Latihan-06%20-%20Depresiasi.xls" target="_blank">Latihan 2: Depresiasi</a></td>
   </tr>
     <tr>
